@@ -4,6 +4,10 @@
 
 // Typography
 
+body {
+  font-family: "Roboto Slab";
+}
+
 p,
 h1,
 h2,
@@ -352,7 +356,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       i::before {
