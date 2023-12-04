@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <p>
-I am a Research Scientist at <a href='https://research.google'>Google Research</a> and an incoming Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a>. Previously, I received my Ph.D. in Computer Science at the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. I also spent three years (2020–2023) as a research intern/student researcher at <a href='https://deepmind.google'>Google DeepMind</a> and <a href='https://research.google'>Research</a>. My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs).
+I am a Research Scientist at <a href='https://research.google'>Google Research</a> and an incoming Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a>. Previously, I received my Ph.D. in Computer Science at the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. I also spent three years (2020–2023) as a research intern/student researcher at <a href='https://deepmind.google'>Google DeepMind</a> and <a href='https://research.google'>Google Research</a>. My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs).
 </p>
 
 <p>
