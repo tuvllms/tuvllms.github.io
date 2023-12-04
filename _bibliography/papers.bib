@@ -1,84 +1,214 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{vu2023freshllms,
+    title={FreshLLMs: Refreshing large language models with search engine augmentation},
+    author={Vu, Tu and Iyyer, Mohit and Wang, Xuezhi and Constant, Noah and Wei, Jerry and Wei, Jason and Tar, Chris and Sung, Yun-Hsuan and Zhou, Denny and Le, Quoc and Luong, Thang},
+    journal={arXiv preprint arXiv:2310.03214},
+    year={2023},
+    abstract={Most large language models (LLMs) are trained once and never updated; thus, they lack the ability to dynamically adapt to our ever-changing world. In this work, we perform a detailed study of the factuality of LLM-generated text in the context of answering questions that test current world knowledge. Specifically, we introduce FreshQA, a novel dynamic QA benchmark encompassing a diverse range of question and answer types, including questions that require fast-changing world knowledge as well as questions with false premises that need to be debunked. We benchmark a diverse array of both closed and open-source LLMs under a two-mode evaluation procedure that allows us to measure both correctness and hallucination. Through human evaluations involving more than 50K judgments, we shed light on limitations of these models and demonstrate significant room for improvement: for instance, all models (regardless of model size) struggle on questions that involve fast-changing knowledge and false premises. Motivated by these results, we present FreshPrompt, a simple few-shot prompting method that substantially boosts the performance of an LLM on FreshQA by incorporating relevant and up-to-date information retrieved from a search engine into the prompt. Our experiments show that FreshPrompt outperforms both competing search engine-augmented prompting methods such as Self-Ask (Press et al., 2022) as well as commercial systems such as <a href='https://www.perplexity.ai'>Perplexity.AI</a>. Further analysis of FreshPrompt reveals that both the number of retrieved evidences and their order play a key role in influencing the correctness of LLM-generated answers. Additionally, instructing the LLM to generate concise and direct answers helps reduce hallucination compared to encouraging more verbose answers. To facilitate future work, we release FreshQA at <a href='https://github.com/freshllms/freshqa'>https://github.com/freshllms/freshqa</a> and commit to updating it at regular intervals.},
+    abbr={Preprint},
+    arxiv={2310.03214},
+    pdf={https://arxiv.org/pdf/2310.03214.pdf},
+    data_and_code={https://github.com/freshllms/freshqa},
+    bibtex_show={true},
+    selected={true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@InProceedings{pmlr-v202-longpre23a,
+    title={The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},
+    author={Longpre, Shayne and Hou, Le and Vu, Tu and Webson, Albert and Chung, Hyung Won and Tay, Yi and Zhou, Denny and Le, Quoc V and Zoph, Barret and Wei, Jason and Roberts, Adam},
+    booktitle={Proceedings of the 40th International Conference on Machine Learning},
+    pages={22631--22648},
+    year={2023},
+    volume={202},
+    series={Proceedings of Machine Learning Research(PMLR)},
+    publisher={PMLR},
+    url={https://proceedings.mlr.press/v202/longpre23a.html},
+    abstract={We study the design decision of publicly available instruction tuning methods, by reproducing and breaking down the development of Flan 2022 (Chung et al., 2022). Through careful ablation studies on the Flan Collection of tasks and methods, we tease apart the effect of design decisions which enable Flan-T5 to outperform prior work by 3-17% across evaluation settings. We find task balancing and enrichment techniques are overlooked but critical to effective instruction tuning, and in particular, training with mixed prompt settings (zero-shot, few-shot, chain-of-thought) actually yields equivalent or stronger (2%) performance in all settings. In further experiments we show Flan-T5 requires less finetuning to converge higher and faster than T5 on single downstream tasks – motivating instruction-tuned models as more computationally-efficient starting checkpoints for new tasks. Finally, to accelerate research on instruction tuning, we make the Flan 2022 collection of datasets, templates, and methods publicly available.},
+    abbr={ICML},
+    arxiv={2301.13688},
+    pdf={https://proceedings.mlr.press/v202/longpre23a/longpre23a.pdf},
+    data={https://github.com/google-research/FLAN/tree/main/flan/v2},
+    bibtex_show={true},
+    selected={true},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{vu-etal-2022-spot,
+    title="{SP}o{T}: Better Frozen Model Adaptation through Soft Prompt Transfer",
+    author="Vu, Tu  and
+        Lester, Brian  and
+        Constant, Noah  and
+        Al-Rfou, Rami  and
+        Cer, Daniel",
+    booktitle="Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    year="2022",
+    url="https://aclanthology.org/2022.acl-long.346",
+    pages="5039--5059",
+    abstract="There has been growing interest in parameter-efficient methods to apply pre-trained language models to downstream tasks. Building on the Prompt Tuning approach of Lester et al. (2021), which learns task-specific soft prompts to condition a frozen pre-trained model to perform different tasks, we propose a novel prompt-based transfer learning approach called SPoT: Soft Prompt Transfer. SPoT first learns a prompt on one or more source tasks and then uses it to initialize the prompt for a target task. We show that SPoT significantly boosts the performance of Prompt Tuning across many tasks. More remarkably, across all model sizes, SPoT matches or outperforms standard Model Tuning (which fine-tunes all model parameters) on the SuperGLUE benchmark, while using up to 27,000{\mbox{$\times$}} fewer task-specific parameters. To understand where SPoT is most effective, we conduct a large-scale study on task transferability with 26 NLP tasks in 160 combinations, and demonstrate that many tasks can benefit each other via prompt transfer. Finally, we propose an efficient retrieval approach that interprets task prompts as task embeddings to identify similar tasks and predict the most transferable source tasks for a novel target task.",
+    abbr={ACL},
+    arxiv={2110.07904},
+    pdf={https://arxiv.org/pdf/2110.07904.pdf},
+    bibtex_show={true},
+    selected={true},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{shen2023mixture,
+    title={Mixture-of-experts meets instruction tuning: A winning combination for large language models},
+    author={Shen, Sheng and Hou, Le and Zhou, Yanqi and Du, Nan and Longpre, Shayne and Wei, Jason and Chung, Hyung Won and Zoph, Barret and Fedus, William and Chen, Xinyun and Vu, Tu and Wu, Yuexin and Chen, Wuyang and Webson, Albert and Li, Yunxuan and Zhao, Vincent and Yu, Hongkun and Keutzer, Kurt and Darrell, Trevor and Zhou, Denny},
+    journal={arXiv preprint arXiv:2305.14705},
+    year={2023},
+    abstract={Sparse Mixture-of-Experts (MoE) is a neural architecture design that can be utilized to add learnable parameters to Large Language Models (LLMs) without increasing inference cost. Instruction tuning is a technique for training LLMs to follow instructions. We advocate combining these two approaches, as we find that MoE models benefit more from instruction tuning than dense models. In particular, we conduct empirical studies across three experimental setups: (i) Direct finetuning on individual downstream tasks devoid of instruction tuning; (ii) Instructiontuning followed by in-context few-shot or zero-shot generalization on downstream tasks; and (iii) Instruction tuning supplemented by further finetuning on individual downstream tasks. In the first scenario, MoE models overall underperform dense models of identical computational capacity. This narrative, however, dramatically changes with the introduction of instruction tuning (second and third scenario), used independently or in conjunction with task-specific finetuning. Our most powerful model, FLAN-MOE-32B, surpasses the performance of FLAN-PALM-62B on four benchmark tasks, while using only a third of the FLOPs. The advancements embodied byFLAN-MOE inspire a reevaluation of the design principles of large-scale, high-performance language models in the framework of task-agnostic learning.},
+    abbr={Preprint},
+    arxiv={2305.14705},
+    pdf={https://arxiv.org/pdf/2305.14705.pdf},
+    bibtex_show={true},
+    selected={true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{vu-etal-2020-exploring,
+    title = "Exploring and Predicting Transferability across {NLP} Tasks",
+    author = "Vu, Tu  and
+        Wang, Tong  and
+        Munkhdalai, Tsendsuren  and
+        Sordoni, Alessandro  and
+        Trischler, Adam  and
+        Mattarella-Micke, Andrew  and
+        Maji, Subhransu  and
+        Iyyer, Mohit",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    year = "2020",
+    url = "https://aclanthology.org/2020.emnlp-main.635",
+    pages = "7882--7926",
+    abstract = "Recent advances in NLP demonstrate the effectiveness of training large-scale language models and transferring them to downstream tasks. Can fine-tuning these models on tasks other than language modeling further improve performance? In this paper, we conduct an extensive study of the transferability between 33 NLP tasks across three broad classes of problems (text classification, question answering, and sequence labeling). Our results show that transfer learning is more beneficial than previously thought, especially when target task data is scarce, and can improve performance even with low-data source tasks that differ substantially from the target task (e.g., part-of-speech tagging transfers well to the DROP QA dataset). We also develop task embeddings that can be used to predict the most transferable source tasks for a given target task, and we validate their effectiveness in experiments controlled for source and target data size. Overall, our experiments reveal that factors such as data size, task and domain similarity, and task complexity all play a role in determining transferability.",
+    abbr={EMNLP},
+    arxiv={2005.00770},
+    pdf={https://arxiv.org/pdf/2005.00770.pdf},
+    bibtex_show={true},
+    selected={true},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{vu-etal-2022-overcoming,
+    title = "Overcoming Catastrophic Forgetting in Zero-Shot Cross-Lingual Generation",
+    author = "Vu, Tu  and
+        Barua, Aditya  and
+        Lester, Brian  and
+        Cer, Daniel  and
+        Iyyer, Mohit  and
+        Constant, Noah",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    year = "2022",
+    url = "https://aclanthology.org/2022.emnlp-main.630",
+    pages = "9279--9300",
+    abstract = "In this paper, we explore the challenging problem of performing a generative task in a target language when labeled data is only available in English, using summarization as a case study. We assume a strict setting with no access to parallel data or machine translation and find that common transfer learning approaches struggle in this setting, as a generative multilingual model fine-tuned purely on English catastrophically forgets how to generate non-English. Given the recent rise of parameter-efficient adaptation techniques, we conduct the first investigation into how one such method, prompt tuning (Lester et al., 2021), can overcome catastrophic forgetting to enable zero-shot cross-lingual generation. Our experiments show that parameter-efficient prompt tuning provides gains over standard fine-tuning when transferring between less-related languages, e.g., from English to Thai. However, a significant gap still remains between these methods and fully-supervised baselines. To improve cross-lingual transfer further, we explore several approaches, including: (1) mixing in unlabeled multilingual data, and (2) explicitly factoring prompts into recombinable language and task components. Our approaches can provide further quality gains, suggesting that robust zero-shot cross-lingual generation is within reach.",
+    abbr={EMNLP},
+    arxiv={2205.12647},
+    pdf={https://arxiv.org/pdf/2205.12647.pdf},
+    bibtex_show={true},
+    selected={true},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{vu-etal-2021-strata,
+    title = "{ST}ra{TA}: Self-Training with Task Augmentation for Better Few-shot Learning",
+    author = "Vu, Tu  and
+        Luong, Minh-Thang  and
+        Le, Quoc  and
+        Simon, Grady  and
+        Iyyer, Mohit",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    year = "2021",
+    url = "https://aclanthology.org/2021.emnlp-main.462",
+    pages = "5715--5731",
+    abstract = "Despite their recent successes in tackling many NLP tasks, large-scale pre-trained language models do not perform as well in few-shot settings where only a handful of training examples are available. To address this shortcoming, we propose STraTA, which stands for Self-Training with Task Augmentation, an approach that builds on two key ideas for effective leverage of unlabeled data. First, STraTA uses task augmentation, a novel technique that synthesizes a large amount of data for auxiliary-task fine-tuning from target-task unlabeled texts. Second, STraTA performs self-training by further fine-tuning the strong base model created by task augmentation on a broad distribution of pseudo-labeled data. Our experiments demonstrate that STraTA can substantially improve sample efficiency across 12 few-shot benchmarks. Remarkably, on the SST-2 sentiment dataset, STraTA, with only 8 training examples per class, achieves comparable results to standard fine-tuning with 67K training examples. Our analyses reveal that task augmentation and self-training are both complementary and independently effective.",
+    abbr={EMNLP},
+    arxiv={2109.06270},
+    pdf={https://arxiv.org/pdf/2109.06270.pdf},
+    bibtex_show={true},
+    selected={true},
+}
+
+@inproceedings{sun-etal-2023-dialect,
+    title = "Dialect-robust Evaluation of Generated Text",
+    author = "Sun, Jiao  and
+        Sellam, Thibault  and
+        Clark, Elizabeth  and
+        Vu, Tu  and
+        Dozat, Timothy  and
+        Garrette, Dan  and
+        Siddhant, Aditya  and
+        Eisenstein, Jacob  and
+        Gehrmann, Sebastian",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    year = "2023",
+    url = "https://aclanthology.org/2023.acl-long.331",
+    pages = "6010--6028",
+    abstract = "Text generation metrics that are not robust to dialect variation make it impossible to tell how well systems perform for many groups of users, and can even penalize systems for producing text in lower-resource dialects. In this paper, we introduce a suite of methods to assess whether metrics are dialect robust. These methods show that state-of-the-art metrics are not dialect robust: they often prioritize dialect similarity over semantics, preferring outputs that are semantically incorrect over outputs that match the semantics of the reference but contain dialect differences. As a step towards dialect-robust metrics for text generation, we propose NANO, which introduces regional and language information to the metric{'}s pretraining. NANO significantly improves dialect robustness while preserving the correlation between automated metrics and human ratings. It also enables a more ambitious approach to evaluation, dialect awareness, in which system outputs are scored by both semantic match to the reference and appropriateness in any specified dialect.",
+    abbr={ACL},
+    arxiv={2211.00922},
+    pdf={https://arxiv.org/pdf/2211.00922.pdf},
+    bibtex_show={true},
+}
+
+@inproceedings{mekala-etal-2022-leveraging,
+    title = "Leveraging {QA} Datasets to Improve Generative Data Augmentation",
+    author = "Mekala, Dheeraj  and
+      Vu, Tu  and
+      Schick, Timo  and
+      Shang, Jingbo",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    year = "2022",
+    url = "https://aclanthology.org/2022.emnlp-main.660",
+    pages = "9737--9750",
+    abstract = "The ability of generative language models (GLMs) to generate text has improved considerably in the last few years, enabling their use for generative data augmentation. In this work, we propose CONDA, an approach to further improve GLM{'}s ability to generate synthetic data by reformulating data generation as context generation for a given question-answer (QA) pair and leveraging QA datasets for training context generators. Then, we cast downstream tasks into the same question answering format and adapt the fine-tuned context generators to the target task domain. Finally, we use the fine-tuned GLM to generate relevant contexts, which are in turn used as synthetic training data for their corresponding tasks. We perform extensive experiments on multiple classification datasets and demonstrate substantial improvements in performance for both few- and zero-shot settings. Our analysis reveals that QA datasets that require high-level reasoning abilities (e.g., abstractive and common-sense QA datasets) tend to give the best boost in performance in both few-shot and zero-shot settings.",
+    abbr={EMNLP},
+    arxiv={2205.12604},
+    pdf={https://arxiv.org/pdf/2205.12604.pdf},
+    bibtex_show={true},
+}
+
+@inproceedings{vu-iyyer-2019-encouraging,
+    title = "Encouraging Paragraph Embeddings to Remember Sentence Identity Improves Classification",
+    author = "Vu, Tu  and
+        Iyyer, Mohit",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    year = "2019",
+    url = "https://aclanthology.org/P19-1638",
+    pages = "6331--6338",
+    abstract = "While paragraph embedding models are remarkably effective for downstream classification tasks, what they learn and encode into a single vector remains opaque. In this paper, we investigate a state-of-the-art paragraph embedding method proposed by Zhang et al. (2017) and discover that it cannot reliably tell whether a given sentence occurs in the input paragraph or not. We formulate a sentence content task to probe for this basic linguistic property and find that even a much simpler bag-of-words method has no trouble solving it. This result motivates us to replace the reconstruction-based objective of Zhang et al. (2017) with our sentence content probe objective in a semi-supervised setting. Despite its simplicity, our objective improves over paragraph reconstruction in terms of (1) downstream classification accuracies on benchmark datasets, (2) faster training, and (3) better generalization ability.",
+    abbr={ACL},
+    arxiv={1906.03656},
+    pdf={https://arxiv.org/pdf/1906.03656.pdf},
+    bibtex_show={true},
+}
+
+@inproceedings{vu-etal-2018-sentence,
+    title = "Sentence Simplification with Memory-Augmented Neural Networks",
+    author = "Vu, Tu  and
+        Hu, Baotian  and
+        Munkhdalai, Tsendsuren  and
+        Yu, Hong",
+    booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)",
+    year = "2018",
+    url = "https://aclanthology.org/N18-2013",
+    pages = "79--85",
+    abstract = "Sentence simplification aims to simplify the content and structure of complex sentences, and thus make them easier to interpret for human readers, and easier to process for downstream NLP applications. Recent advances in neural machine translation have paved the way for novel approaches to the task. In this paper, we adapt an architecture with augmented memory capacities called Neural Semantic Encoders (Munkhdalai and Yu, 2017) for sentence simplification. Our experiments demonstrate the effectiveness of our approach on different simplification datasets, both in terms of automatic evaluation measures and human judgments.",
+    abbr={NAACL},
+    arxiv={1804.07445},
+    pdf={https://arxiv.org/pdf/1804.07445.pdf},
+    bibtex_show={true},
+}
+
+@inproceedings{vu-shwartz-2018-integrating,
+    title = "Integrating Multiplicative Features into Supervised Distributional Methods for Lexical Entailment",
+    author = "Vu, Tu  and
+        Shwartz, Vered",
+    booktitle = "Proceedings of the Seventh Joint Conference on Lexical and Computational Semantics",
+    year = "2018",
+    url = "https://aclanthology.org/S18-2020",
+    pages = "160--166",
+    abstract = "Supervised distributional methods are applied successfully in lexical entailment, but recent work questioned whether these methods actually learn a relation between two words. Specifically, Levy et al. (2015) claimed that linear classifiers learn only separate properties of each word. We suggest a cheap and easy way to boost the performance of these methods by integrating multiplicative features into commonly used representations. We provide an extensive evaluation with different classifiers and evaluation setups, and suggest a suitable evaluation setup for the task, eliminating biases existing in previous ones.",
+    abbr={*SEM@NAACL},
+    arxiv={1804.08845},
+    pdf={https://arxiv.org/pdf/1804.08845.pdf},
+    bibtex_show={true},
 }
