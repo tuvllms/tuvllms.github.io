@@ -34,6 +34,19 @@
     selected={true},
 }
 
+@article{shen2023mixture,
+    title={Mixture-of-experts meets instruction tuning: A winning combination for large language models},
+    author={Shen, Sheng and Hou, Le and Zhou, Yanqi and Du, Nan and Longpre, Shayne and Wei, Jason and Chung, Hyung Won and Zoph, Barret and Fedus, William and Chen, Xinyun and Vu, Tu and Wu, Yuexin and Chen, Wuyang and Webson, Albert and Li, Yunxuan and Zhao, Vincent and Yu, Hongkun and Keutzer, Kurt and Darrell, Trevor and Zhou, Denny},
+    journal={arXiv preprint arXiv:2305.14705},
+    year={2023},
+    abstract={Sparse Mixture-of-Experts (MoE) is a neural architecture design that can be utilized to add learnable parameters to Large Language Models (LLMs) without increasing inference cost. Instruction tuning is a technique for training LLMs to follow instructions. We advocate combining these two approaches, as we find that MoE models benefit more from instruction tuning than dense models. In particular, we conduct empirical studies across three experimental setups: (i) Direct finetuning on individual downstream tasks devoid of instruction tuning; (ii) Instructiontuning followed by in-context few-shot or zero-shot generalization on downstream tasks; and (iii) Instruction tuning supplemented by further finetuning on individual downstream tasks. In the first scenario, MoE models overall underperform dense models of identical computational capacity. This narrative, however, dramatically changes with the introduction of instruction tuning (second and third scenario), used independently or in conjunction with task-specific finetuning. Our most powerful model, FLAN-MOE-32B, surpasses the performance of FLAN-PALM-62B on four benchmark tasks, while using only a third of the FLOPs. The advancements embodied byFLAN-MOE inspire a reevaluation of the design principles of large-scale, high-performance language models in the framework of task-agnostic learning.},
+    abbr={Preprint},
+    arxiv={2305.14705},
+    pdf={https://arxiv.org/pdf/2305.14705.pdf},
+    bibtex_show={true},
+    selected={true},
+}
+
 @inproceedings{vu-etal-2022-spot,
     title="{SP}o{T}: Better Frozen Model Adaptation through Soft Prompt Transfer",
     author="Vu, Tu  and
@@ -49,41 +62,6 @@
     abbr={ACL},
     arxiv={2110.07904},
     pdf={https://arxiv.org/pdf/2110.07904.pdf},
-    bibtex_show={true},
-    selected={true},
-}
-
-@article{shen2023mixture,
-    title={Mixture-of-experts meets instruction tuning: A winning combination for large language models},
-    author={Shen, Sheng and Hou, Le and Zhou, Yanqi and Du, Nan and Longpre, Shayne and Wei, Jason and Chung, Hyung Won and Zoph, Barret and Fedus, William and Chen, Xinyun and Vu, Tu and Wu, Yuexin and Chen, Wuyang and Webson, Albert and Li, Yunxuan and Zhao, Vincent and Yu, Hongkun and Keutzer, Kurt and Darrell, Trevor and Zhou, Denny},
-    journal={arXiv preprint arXiv:2305.14705},
-    year={2023},
-    abstract={Sparse Mixture-of-Experts (MoE) is a neural architecture design that can be utilized to add learnable parameters to Large Language Models (LLMs) without increasing inference cost. Instruction tuning is a technique for training LLMs to follow instructions. We advocate combining these two approaches, as we find that MoE models benefit more from instruction tuning than dense models. In particular, we conduct empirical studies across three experimental setups: (i) Direct finetuning on individual downstream tasks devoid of instruction tuning; (ii) Instructiontuning followed by in-context few-shot or zero-shot generalization on downstream tasks; and (iii) Instruction tuning supplemented by further finetuning on individual downstream tasks. In the first scenario, MoE models overall underperform dense models of identical computational capacity. This narrative, however, dramatically changes with the introduction of instruction tuning (second and third scenario), used independently or in conjunction with task-specific finetuning. Our most powerful model, FLAN-MOE-32B, surpasses the performance of FLAN-PALM-62B on four benchmark tasks, while using only a third of the FLOPs. The advancements embodied byFLAN-MOE inspire a reevaluation of the design principles of large-scale, high-performance language models in the framework of task-agnostic learning.},
-    abbr={Preprint},
-    arxiv={2305.14705},
-    pdf={https://arxiv.org/pdf/2305.14705.pdf},
-    bibtex_show={true},
-    selected={true},
-}
-
-@inproceedings{vu-etal-2020-exploring,
-    title = "Exploring and Predicting Transferability across {NLP} Tasks",
-    author = "Vu, Tu  and
-        Wang, Tong  and
-        Munkhdalai, Tsendsuren  and
-        Sordoni, Alessandro  and
-        Trischler, Adam  and
-        Mattarella-Micke, Andrew  and
-        Maji, Subhransu  and
-        Iyyer, Mohit",
-    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-    year = "2020",
-    url = "https://aclanthology.org/2020.emnlp-main.635",
-    pages = "7882--7926",
-    abstract = "Recent advances in NLP demonstrate the effectiveness of training large-scale language models and transferring them to downstream tasks. Can fine-tuning these models on tasks other than language modeling further improve performance? In this paper, we conduct an extensive study of the transferability between 33 NLP tasks across three broad classes of problems (text classification, question answering, and sequence labeling). Our results show that transfer learning is more beneficial than previously thought, especially when target task data is scarce, and can improve performance even with low-data source tasks that differ substantially from the target task (e.g., part-of-speech tagging transfers well to the DROP QA dataset). We also develop task embeddings that can be used to predict the most transferable source tasks for a given target task, and we validate their effectiveness in experiments controlled for source and target data size. Overall, our experiments reveal that factors such as data size, task and domain similarity, and task complexity all play a role in determining transferability.",
-    abbr={EMNLP},
-    arxiv={2005.00770},
-    pdf={https://arxiv.org/pdf/2005.00770.pdf},
     bibtex_show={true},
     selected={true},
 }
@@ -123,6 +101,28 @@
     abbr={EMNLP},
     arxiv={2109.06270},
     pdf={https://arxiv.org/pdf/2109.06270.pdf},
+    bibtex_show={true},
+    selected={true},
+}
+
+@inproceedings{vu-etal-2020-exploring,
+    title = "Exploring and Predicting Transferability across {NLP} Tasks",
+    author = "Vu, Tu  and
+        Wang, Tong  and
+        Munkhdalai, Tsendsuren  and
+        Sordoni, Alessandro  and
+        Trischler, Adam  and
+        Mattarella-Micke, Andrew  and
+        Maji, Subhransu  and
+        Iyyer, Mohit",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    year = "2020",
+    url = "https://aclanthology.org/2020.emnlp-main.635",
+    pages = "7882--7926",
+    abstract = "Recent advances in NLP demonstrate the effectiveness of training large-scale language models and transferring them to downstream tasks. Can fine-tuning these models on tasks other than language modeling further improve performance? In this paper, we conduct an extensive study of the transferability between 33 NLP tasks across three broad classes of problems (text classification, question answering, and sequence labeling). Our results show that transfer learning is more beneficial than previously thought, especially when target task data is scarce, and can improve performance even with low-data source tasks that differ substantially from the target task (e.g., part-of-speech tagging transfers well to the DROP QA dataset). We also develop task embeddings that can be used to predict the most transferable source tasks for a given target task, and we validate their effectiveness in experiments controlled for source and target data size. Overall, our experiments reveal that factors such as data size, task and domain similarity, and task complexity all play a role in determining transferability.",
+    abbr={EMNLP},
+    arxiv={2005.00770},
+    pdf={https://arxiv.org/pdf/2005.00770.pdf},
     bibtex_show={true},
     selected={true},
 }
