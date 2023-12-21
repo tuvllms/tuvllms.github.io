@@ -21,13 +21,13 @@ I am a Research Scientist at <a href='https://research.google'>Google Research</
 </p>
 
 <p>
-My current research focuses on addressing limitations of LLMs and developing novel learning paradigms. Specific areas of focus include:
+My current research focuses on addressing limitations of LLMs and developing novel learning paradigms. My specific areas of focus include:
 </p>
 
 - <span class="font-weight-bold">In-context learning and tool-use LLMs:</span> injecting knowledge into LLM prompts and augmenting LLMs with external tools
 - <span class="font-weight-bold">Instruction tuning:</span> enhancing LLMs' instruction-following capabilities
 - <span class="font-weight-bold">Parameter-efficient transfer learning:</span> efficiently transferring knowledge across tasks, languages, and modalities
 - <span class="font-weight-bold">Few-shot learning:</span> learning from limited human-labeled data
-
+- <span class="font-weight-bold">Efficient model architectures and long-context modeling:</span> designing efficient model architectures to model long context.
 
 <p><span class="font-weight-bold" style="color: var(--global-title-color);">I am currently recruiting Ph.D. students for Fall 2024.</span> If you are interested in doing a Ph.D. at <a href='https://cs.vt.edu'>Virginia Tech</a> and joining my lab, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the Virginia Tech Graduate School and list me as a potential advisor. Please check out the <a href='https://cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/Graduate/Prospective.html'>useful information</a>.</p>
