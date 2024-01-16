@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-:speaking_head::sparkles: Talk at Graph Neural Networks Reading Group, Google
+:speaking_head: Talk at Graph Neural Networks Reading Group, Google
 
