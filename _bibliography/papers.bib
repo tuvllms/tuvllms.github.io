@@ -37,10 +37,10 @@
 @article{shen2023mixture,
     title={Mixture-of-experts meets instruction tuning: A winning combination for large language models},
     author={Shen, Sheng and Hou, Le and Zhou, Yanqi and Du, Nan and Longpre, Shayne and Wei, Jason and Chung, Hyung Won and Zoph, Barret and Fedus, William and Chen, Xinyun and Vu, Tu and Wu, Yuexin and Chen, Wuyang and Webson, Albert and Li, Yunxuan and Zhao, Vincent and Yu, Hongkun and Keutzer, Kurt and Darrell, Trevor and Zhou, Denny},
-    journal={arXiv preprint arXiv:2305.14705},
-    year={2023},
+    journal={Proceedings of the 12th International Conference on Learning Representations (ICLR)},
+    year={2024},
     abstract={Sparse Mixture-of-Experts (MoE) is a neural architecture design that can be utilized to add learnable parameters to Large Language Models (LLMs) without increasing inference cost. Instruction tuning is a technique for training LLMs to follow instructions. We advocate combining these two approaches, as we find that MoE models benefit more from instruction tuning than dense models. In particular, we conduct empirical studies across three experimental setups: (i) Direct finetuning on individual downstream tasks devoid of instruction tuning; (ii) Instructiontuning followed by in-context few-shot or zero-shot generalization on downstream tasks; and (iii) Instruction tuning supplemented by further finetuning on individual downstream tasks. In the first scenario, MoE models overall underperform dense models of identical computational capacity. This narrative, however, dramatically changes with the introduction of instruction tuning (second and third scenario), used independently or in conjunction with task-specific finetuning. Our most powerful model, FLAN-MOE-32B, surpasses the performance of FLAN-PALM-62B on four benchmark tasks, while using only a third of the FLOPs. The advancements embodied byFLAN-MOE inspire a reevaluation of the design principles of large-scale, high-performance language models in the framework of task-agnostic learning.},
-    abbr={Preprint},
+    abbr={ICLR},
     arxiv={2305.14705},
     pdf={https://arxiv.org/pdf/2305.14705.pdf},
     bibtex_show={true},
@@ -115,7 +115,7 @@
         Mattarella-Micke, Andrew  and
         Maji, Subhransu  and
         Iyyer, Mohit",
-    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
     year = "2020",
     url = "https://aclanthology.org/2020.emnlp-main.635",
     pages = "7882--7926",
@@ -125,6 +125,18 @@
     pdf={https://arxiv.org/pdf/2005.00770.pdf},
     bibtex_show={true},
     selected={true},
+}
+
+@inproceedings{ren-etal-2023-self,
+    title={Self-Evaluation Improves Selective Generation in Large Language Models},
+    author={Ren, Jie and Zhao, Yao and Vu, Tu and Liu, Peter J and Lakshminarayanan, Balaji},
+    journal={Proceedings on "I Can't Believe It's Not Better!  - Failure Modes in the Age of Foundation Models" at NeurIPS 2023 Workshops},
+    year={2023},
+    abstract={Safe deployment of large language models (LLMs) may benefit from a reliable method for assessing their generated content to determine when to abstain or to selectively generate. While likelihood-based metrics such as perplexity are widely employed, recent research has demonstrated the limitations of using sequence-level probability estimates given by LLMs as reliable indicators of generation quality. Conversely, LLMs have demonstrated strong calibration at the token level, particularly when it comes to choosing correct answers in multiple-choice questions or evaluating true/false statements. In this work, we reformulate open-ended generation tasks into token-level prediction tasks, and leverage LLMs' superior calibration at the token level. We instruct an LLM to self-evaluate its answers, employing either a multi-way comparison or a point-wise evaluation approach, with the option to include a "None of the above" option to express the model's uncertainty explicitly. We benchmark a range of scoring methods based on self-evaluation and evaluate their performance in selective generation using TruthfulQA and TL;DR. Through experiments with PaLM-2 and GPT-3, we demonstrate that self-evaluation based scores not only improve accuracy, but also correlate better with the overall quality of generated content.},
+    abbr={ICBINB@NeurIPS},
+    arxiv={2312.09300},
+    pdf={https://arxiv.org/pdf/2312.09300.pdf},
+    bibtex_show={true},
 }
 
 @inproceedings{sun-etal-2023-dialect,
