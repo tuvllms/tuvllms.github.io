@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2024-01-16
+date: 2023-11-02
 inline: true
 related_posts: false
 ---
 
-:page_facing_up: <a href='https://arxiv.org/abs/2305.14705'>Flan-MoE</a> accepted to ICLR 2024!
+:speaking_head::sparkles: Talk at Graph Neural Networks Reading Group, Google
 
