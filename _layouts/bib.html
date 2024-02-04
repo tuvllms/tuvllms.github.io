@@ -242,5 +242,7 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+          {%- if entry.highlight %}
+            <span class="highlight-text">{{ entry.highlight }}</span>
         </div>
       </div>
