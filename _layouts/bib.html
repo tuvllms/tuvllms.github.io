@@ -138,9 +138,6 @@
 
           <!-- Links/Buttons -->
           <div class="links">
-          {%- if entry.highlight %}
-            <span class="highlight-text" style="color: var(--global-title-color);>{{ entry.highlight }}</span>
-          {%- endif %}
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
@@ -244,6 +241,9 @@
           <div class="bibtex hidden">
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
+          {%- endif %}
+          {%- if entry.highlight %}
+            <span class="highlight-text" style="color: var(--global-title-color);>{{ entry.highlight }}</span>
           {%- endif %}
         </div>
       </div>
