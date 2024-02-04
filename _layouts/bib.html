@@ -136,6 +136,10 @@
           {{ entry.note | strip }}
         </div>
 
+          {%- if entry.highlight %}
+            <span class="highlight-text" style="color: var(--global-title-color);>{{ entry.highlight }}</span>
+          {%- endif %}
+                  
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -241,9 +245,6 @@
           <div class="bibtex hidden">
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
-          {%- endif %}
-          {%- if entry.highlight %}
-            <span class="highlight-text">{{ entry.highlight }}</span>
           {%- endif %}
         </div>
       </div>
