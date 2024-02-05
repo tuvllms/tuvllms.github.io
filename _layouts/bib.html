@@ -243,7 +243,7 @@
           </div>
           {%- endif %}
           {%- if entry.highlight %}
-            <span class="highlight-text" style="color: var(--global-highlight-color);"><i>{{ entry.highlight }}</i></span>
+            <span class="highlight-text" style="color: var(--global-highlight-color);"><i>{{ entry.highlight | safe }}</i></span>
           {%- endif %}
           {%- if entry.google_blog %}
             <span class="highlight-text" style="color: var(--global-highlight-color);"><i>// <a href="https://blog.research.google/{{ entry.google_blog }}" style="color: var(--global-highlight-color);">Google Research Blog</a></i></span>
