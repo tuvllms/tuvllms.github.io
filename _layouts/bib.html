@@ -62,7 +62,7 @@
 
           {%- if forloop.length > 1 -%}
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
-            {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
+            {%- if forloop.last and author_array_limit == author_array_size -%}<span style="color: var(--global-coauthor-color);">and&nbsp;</span>{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
             <strong>{{author.first}} {{author.last}}</strong>
