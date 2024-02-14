@@ -47,6 +47,12 @@ layout: default
             {%- include news.html limit=true %}
           {%- endif %}
 
+          <!-- Advisees -->
+          {% if page.advisees -%}
+            <h2>Advisees</h2>
+            {%- include advisees.html %}
+          {%- endif %}
+
           <!-- Latest posts -->
           {% if page.latest_posts -%}
             <h2>Latest posts</h2>
