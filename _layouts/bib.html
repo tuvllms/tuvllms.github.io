@@ -67,9 +67,6 @@
           {%- if author_is_self -%}
             <strong>{{author.first}} {{author.last}}</strong>
           {%- else -%}
-          {%- if entry.long_author_list -%}
-            (including <strong>Tu Vu</strong>)
-          {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
             {%- else -%}
