@@ -245,8 +245,11 @@
           {%- if entry.highlight %}
             <span class="highlight-text" style="color: var(--global-highlight-color);"><i>{{ entry.highlight | safe }}</i></span>
           {%- endif %}
-          {%- if entry.google_blog %}
-            <span class="highlight-text" style="color: var(--global-highlight-color);"><i>// <a href="https://blog.research.google/{{ entry.google_blog }}" style="color: var(--global-highlight-color);">Google Research Blog</a></i></span>
+          {%- if entry.google_research_blog %}
+            <span class="highlight-text" style="color: var(--global-highlight-color);"><i>// <a href="https://blog.research.google/{{ entry.google_research_blog }}" style="color: var(--global-highlight-color);">Google Research Blog</a></i></span>
           {%- endif %}
+          {%- if entry.google_ai_blog %}
+            <span class="highlight-text" style="color: var(--global-highlight-color);"><i>// <a href="https://blog.google/{{ entry.google_ai_blog }}" style="color: var(--global-highlight-color);">Google AI Blog</a></i></span>
+          {%- endif %}   
         </div>
       </div>
