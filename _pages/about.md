@@ -18,18 +18,13 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <p>
-I am a Research Scientist at <a href='https://deepmind.google'>Google DeepMind</a> and an incoming Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a>. Previously, I received my PhD in Computer Science at the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. I also spent three years (2020–2023) as a research intern/student researcher at <a href='https://deepmind.google'>Google DeepMind</a> and <a href='https://research.google'>Google Research</a>. My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs).
-</p>
-
-<p>
-My current research focuses on addressing limitations of LLMs and developing novel learning paradigms. Specific areas of focus include:
+I am a Research Scientist at <a href='https://deepmind.google'>Google DeepMind</a> and an incoming Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a>. Previously, I received my PhD in Computer Science at the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. During my PhD, I worked closely with <a href='https://deepmind.google'>Google DeepMind</a> researchers as a research intern/student researcher, contributing to the early development of <a href='https://gemini.google.com'>Google Gemini</a>. My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
 </p>
 
 - <span class="font-weight-bold">In-context learning and tool-use LLMs:</span> injecting knowledge into LLM prompts and augmenting LLMs with external tools
 - <span class="font-weight-bold">Instruction tuning:</span> enhancing LLMs' instruction-following capabilities
 - <span class="font-weight-bold">Parameter-efficient transfer learning:</span> efficiently transferring knowledge across tasks, languages, and modalities
-- <span class="font-weight-bold">Long-context modeling:</span> designing efficient model architectures for long sequences
 - <span class="font-weight-bold">Advanced planning and reasoning:</span> improving LLMs' ability to solve complex reasoning problems
-- <span class="font-weight-bold">Few-shot learning:</span> learning from limited human-labeled data.
+- <span class="font-weight-bold">Long-context modeling:</span> designing efficient model architectures for long sequences
 
-<p>If you are interested in doing a PhD at <a href='https://cs.vt.edu'>Virginia Tech</a> and joining my lab, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the Virginia Tech Graduate School and list me as a potential advisor. Please also check out the <a href='https://cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/Graduate/Prospective.html'>information for prospective students</a>.</p>
+<p>If you are interested in doing a PhD at <a href='https://cs.vt.edu'>Virginia Tech</a> and joining my lab, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the Virginia Tech Graduate School and list me as a potential advisor. Please also check out the <a href='https://cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/Graduate/Prospective.html'>information for prospective students</a>. </p>
