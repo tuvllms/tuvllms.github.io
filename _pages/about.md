@@ -27,6 +27,8 @@ I am a Research Scientist at <a href='https://deepmind.google'>Google DeepMind</
 - <span class="font-weight-bold">Advanced planning and reasoning:</span> improving LLMs' ability to solve complex reasoning problems
 - <span class="font-weight-bold">Long-context modeling:</span> designing efficient model architectures for long sequences
 
+{% details For prospective PhD students %}
 <p>
 If you are interested in doing a PhD at <a href='https://cs.vt.edu'>Virginia Tech</a> and joining my lab, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the Virginia Tech Graduate School and list me as a potential advisor. Please also check out the <a href='https://cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/Graduate/Prospective.html'>information for prospective students</a>.
 </p>
+{% enddetails %}
