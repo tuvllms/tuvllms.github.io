@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:briefcase: I joined Google Research in Mountain View, CA as a Research Scientist
+:briefcase: I joined Google in Mountain View, CA as a Research Scientist
