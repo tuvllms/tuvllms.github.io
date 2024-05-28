@@ -43,7 +43,7 @@
         {% endif %}
 
         {%- if entry.long_author_list %}
-            <span style="color: var(--global-coauthor-color);">Google Gemini Team</span></span>: </span>
+            <span style="color: var(--global-coauthor-color);">{{ entry.team }}</span></span>: </span>
         {%- endif %}
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
@@ -65,7 +65,7 @@
 
           {%- if forloop.length > 1 -%}
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
-            {%- if forloop.last and author_array_limit == author_array_size -%}<span style="color: var(--global-coauthor-color);">and{%- if author.first %}&nbsp;{%- endif %}</span>{%- endif -%}
+            {%- if forloop.last and author_array_limit == author_array_size -%}<span style="color: var(--global-coauthor-color);">and&nbsp;</span>{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
             <strong>{{author.first}} {{author.last}}</strong>
@@ -78,7 +78,7 @@
           {%- endif -%}
         {%- endfor -%}
         {%- if entry.long_author_list %}
-            <span style="color: var(--global-coauthor-color);">including</span> <strong>Tu Vu</strong>
+            <span style="color: var(--global-coauthor-color);">including</span> <strong>{{ entry.highlighted_author }}</strong>
         {%- endif %}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
