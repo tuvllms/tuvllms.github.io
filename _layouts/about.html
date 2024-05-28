@@ -43,6 +43,7 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
+            <br>
             <h2 style="color: var(--global-title-color);">Recent news</h2>
             {%- include news.html limit=true %}
           {%- endif %}
