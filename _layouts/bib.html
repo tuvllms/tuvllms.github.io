@@ -43,7 +43,7 @@
         {% endif %}
 
         {%- if entry.long_author_list %}
-            <span style="color: var(--global-coauthor-color);">Google Gemini Team</span>: 
+            <span style="color: var(--global-coauthor-color);">Google Gemini Team</span></span>: </span>
         {%- endif %}
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
