@@ -65,7 +65,7 @@
 
           {%- if forloop.length > 1 -%}
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
-            {%- if forloop.last and author_array_limit == author_array_size -%}<span style="color: var(--global-coauthor-color);">and&nbsp;</span>{%- endif -%}
+            {%- if forloop.last and author_array_limit == author_array_size -%}<span style="color: var(--global-coauthor-color);">and{%- if author.last %}&nbsp;{%- endif %}</span>{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
             <strong>{{author.first}} {{author.last}}</strong>
@@ -73,7 +73,7 @@
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
             {%- else -%}
-              <span style="color: var(--global-coauthor-color);">{{author.first}}{%- if author.last %} {{ author.last }}{%- endif %}</span>
+              <span style="color: var(--global-coauthor-color);">{{author.first}} {{ author.last }}</span>
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
