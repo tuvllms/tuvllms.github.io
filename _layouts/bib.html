@@ -42,6 +42,9 @@
           {% assign author_array_limit = site.max_author_limit %}
         {% endif %}
 
+        {%- if entry.long_author_list %}
+            <span style="color: var(--global-coauthor-color);">Google Gemini Team</span>: 
+        {%- endif %}
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
