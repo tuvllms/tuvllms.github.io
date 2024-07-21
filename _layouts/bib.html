@@ -43,7 +43,7 @@
         {% endif %}
 
         {%- if entry.long_author_list %}
-            <span style="color: var(--global-coauthor-color);">{{ entry.team }}</span>: 
+            <span style="color: var(--global-coauthor-color);">{{ entry.team }}</span><span>: </span>span>
         {%- endif %}
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
