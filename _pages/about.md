@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <p>
-I am a Research Scientist at <a href='https://deepmind.google'>Google DeepMind</a> and an incoming Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a>. Previously, I received my PhD in Computer Science at the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. During my PhD, I worked closely with <a href='https://deepmind.google'>Google DeepMind</a> researchers as a research intern/student researcher, contributing to the early development of <a href='https://gemini.google.com'>Google Gemini</a>. My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
+I am a Research Scientist at <a href='https://deepmind.google'>Google DeepMind</a> and an incoming Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a>. Previously, I received my PhD in Computer Science at the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
 </p>
 
 - <span class="font-weight-bold">In-context learning and tool-use LLMs:</span> injecting knowledge into LLM prompts and augmenting LLMs with external tools
