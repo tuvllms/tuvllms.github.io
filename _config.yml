@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Tu
 middle_name: 
 last_name: Vu
-email: ttvu@google.com
+email: tuvu@vt.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Tu Vu's personal website
 footer_text: >
@@ -173,7 +173,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 10 # leave blank to include all the news in the `_news` folder
+  limit:  # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
