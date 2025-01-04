@@ -40,7 +40,7 @@ I plan to recruit one or two PhD students every year. If you are interested in j
 
 {% details ⭐ For Undergraduate and Masters students at VT %}
 <p>
-I am open to collaborating on research with current VT students, ideally those who have at least one full calendar year remaining until graduation. If you are interested, feel free to email me or visit during my office hours.
+I am happy to collaborate on research with current VT students, ideally those who have at least one full calendar year remaining until graduation. If you are interested, feel free to email me or visit during my office hours.
 </p>
 {% enddetails %}
 
