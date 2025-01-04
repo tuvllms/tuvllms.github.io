@@ -16,6 +16,20 @@
     highlight={// The top-performing generative model on <a href="https://huggingface.co/spaces/allenai/reward-bench" style="color: #d92f7c;">RewardBench</a> trained solely on publicly available data}
 }
 
+@InProceedings{yadav-etal-2024-matters,
+    title = "What Matters for Model Merging at Scale?",
+    author = "Yadav, Prateek and Vu, Tu and Lai, Jonathan and Chronopoulou, Alexandra and Faruqui, Manaal and Bansal, Mohit and Munkhdalai, Tsendsuren",
+    booktitle={arXiv preprint arXiv:2410.03617},
+    year={2024},
+    abstract={Model merging aims to combine multiple expert models into a more capable single model, offering benefits such as reduced storage and serving costs, improved generalization, and support for decentralized model development. Despite its promise, previous studies have primarily focused on merging a few small models. This leaves many unanswered questions about the effect of scaling model size and how it interplays with other key factors -- like the base model quality and number of expert models -- , to affect the merged model's performance. This work systematically evaluates the utility of model merging at scale, examining the impact of these different factors. We experiment with merging fully fine-tuned models using 4 popular merging methods -- Averaging, Task~Arithmetic, Dare, and TIES -- across model sizes ranging from 1B-64B parameters and merging up to 8 different expert models. We evaluate the merged models on both held-in tasks, i.e., the expert's training tasks, and zero-shot generalization to unseen held-out tasks. Our experiments provide several new insights about model merging at scale and the interplay between different factors. First, we find that merging is more effective when experts are created from strong base models, i.e., models with good zero-shot performance. Second, larger models facilitate easier merging. Third merging consistently improves generalization capabilities. Notably, when merging 8 large expert models, the merged models often generalize better compared to the multitask trained models. Fourth, we can better merge more expert models when working with larger models. Fifth, different merging methods behave very similarly at larger scales. Overall, our findings shed light on some interesting properties of model merging while also highlighting some limitations. We hope that this study will serve as a reference point on large-scale merging for upcoming research.},
+    abbr={Preprint},
+    arxiv={2410.03617},
+    pdf={https://arxiv.org/pdf/2410.03617},
+    bibtex_show={true},
+    selected={true},
+    highlighted_author={Tu Vu},
+}
+
 @InProceedings{geminiteam2024gemini,
     title={Gemini: A Family of Highly Capable Multimodal Models},
     author={Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew and Hauth, Anja and others},
