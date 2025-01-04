@@ -19,7 +19,8 @@ social: false  # includes social icons at the bottom of the page
 
 <p>
 I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT), and a Faculty Researcher at <a href='https://research.google'>Google</a>. Prior to joining VT, I held the position of Research Scientist at <a href='https://deepmind.google'>Google DeepMind</a> for a year after receiving my PhD in Computer Science at the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. 
-
+</p>
+<p>
 My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
 </p>
 
