@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🛫 Attended EMNLP 2024 in Miami, Florida 🌴
+✈️ Attended EMNLP 2024 in Miami, Florida 🌴
