@@ -7,6 +7,15 @@ nav: true
 nav_order: 5
 ---
 
+<style>
+    .table.table-sm.table-borderless {
+        border: none !important;
+    }
+    .table.table-sm.table-borderless tr:hover {
+        background-color: transparent !important;
+    }
+</style>
+
 <div class="table-responsive">
     <table class="table table-sm table-borderless">
       <tr>
