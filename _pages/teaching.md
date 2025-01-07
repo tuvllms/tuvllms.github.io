@@ -10,6 +10,19 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<style>
+/* Ensure a single card per row, spanning full width */
+.projects .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between cards */
+}
+
+.projects .list .project-card {
+    width: 100%; /* Each card takes full width */
+}
+</style>
+
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -20,7 +33,9 @@ horizontal: false
   <!-- Generate cards for each project -->
   <div class="list">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      <div class="project-card">
+        {% include projects.html %}
+      </div>
     {%- endfor %}
   </div>
   {% endfor %}
@@ -31,7 +46,9 @@ horizontal: false
   <!-- Generate cards for each project -->
   <div class="list">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      <div class="project-card">
+        {% include projects.html %}
+      </div>
     {%- endfor %}
   </div>
 {%- endif -%}
