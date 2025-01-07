@@ -5,7 +5,7 @@ permalink: /teaching/
 description:
 nav: true
 nav_order: 5
-display_categories: [work, fun]
+display_categories: [2025]
 horizontal: true
 ---
 
