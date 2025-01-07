@@ -47,13 +47,6 @@ layout: default
             <h2 style="color: var(--global-title-color);">Recent news</h2>
             {%- include news.html limit=true %}
           {%- endif %}
-
-          <!-- Advisees -->
-          {% if page.teaching -%}
-            <br>
-            <h2 style="color: var(--global-title-color);">Teaching</h2>
-            {%- include teaching.html %}
-          {%- endif %}
               
           <!-- Advisees -->
           {% if page.advisees -%}
