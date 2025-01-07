@@ -9,7 +9,7 @@ display_categories: [2025]
 horizontal: true
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/teaching.md -->
 
 <div class="teaching">
 {%- if site.enable_project_categories and page.display_categories %}
