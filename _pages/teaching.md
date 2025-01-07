@@ -11,15 +11,16 @@ horizontal: false
 
 <!-- pages/projects.md -->
 <style>
-/* Ensure a single card per row, spanning full width */
+/* Ensure one card per row spanning full width */
 .projects .list {
     display: flex;
-    flex-direction: column;
-    gap: 20px; /* Space between cards */
+    flex-direction: column; /* Stack cards vertically */
+    gap: 20px; /* Add space between cards */
 }
 
-.projects .list .project-card {
-    width: 100%; /* Each card takes full width */
+.project-card {
+    width: 100%; /* Full width of container */
+    display: block;
 }
 </style>
 
