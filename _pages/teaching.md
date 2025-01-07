@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: teaching
 permalink: /teaching/
-description: A growing collection of your cool projects.
+description:
 nav: true
-nav_order: 2
-display_categories: [work, fun]
+nav_order: 5
+display_categories: [2025, 2026]
 horizontal: false
 ---
 
