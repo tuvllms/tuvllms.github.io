@@ -10,21 +10,8 @@ horizontal: true
 ---
 
 <!-- pages/projects.md -->
-<style>
-/* Ensure one card per row spanning full width */
-.projects .list {
-    display: flex;
-    flex-direction: column; /* Stack cards vertically */
-    gap: 20px; /* Add space between cards */
-}
 
-.project-card {
-    width: 100%; /* Full width of container */
-    display: block;
-}
-</style>
-
-<div class="projects">
+<div class="teaching">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
