@@ -49,6 +49,13 @@ layout: default
           {%- endif %}
 
           <!-- Advisees -->
+          {% if page.teaching -%}
+            <br>
+            <h2 style="color: var(--global-title-color);">Teaching</h2>
+            {%- include teaching.html %}
+          {%- endif %}
+              
+          <!-- Advisees -->
           {% if page.advisees -%}
             <br>
             <h2 style="color: var(--global-title-color);">Advisees</h2>
