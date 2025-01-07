@@ -1,8 +1,10 @@
 <!-- _includes/courses.html -->
-  {% if course.redirect -%}
-  <a href="{{ course.redirect }}">
-    {%- else -%}
-    <a href="{{ course.url | relative_url }}">
-      {%- endif %}
-          <h2>{{ course.title }}</h2>
-    </a>
+
+<div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      <tr>
+        <th scope="row" style="width: 20%"></th>
+        <td><a href="{{ course.url | relative_url }}">{{ course.title }}</a></td>
+      </tr>
+    </table>
+</div>
