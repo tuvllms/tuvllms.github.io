@@ -5,39 +5,23 @@ permalink: /teaching/
 description:
 nav: true
 nav_order: 5
-display_categories: [2025]
-horizontal: true
+horizontal: false
 ---
 
-<!-- pages/teaching.md -->
+<style>
+    .table.table-sm.table-borderless {
+        border: none !important;
+    }
+    .table.table-sm.table-borderless tr:hover {
+        background-color: transparent !important;
+    }
+</style>
 
-<div class="teaching">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  <div class="list">
-    {%- for project in sorted_projects -%}
-      <div class="project-card">
-        {% include projects.html %}
-      </div>
-    {%- endfor %}
-  </div>
-  {% endfor %}
-
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  <div class="list">
-    {%- for project in sorted_projects -%}
-      <div class="project-card">
-        {% include projects.html %}
-      </div>
-    {%- endfor %}
-  </div>
-{%- endif -%}
+<div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      <tr>
+        <th scope="row" style="width: 20%"></th>
+        <td><a href="https://tuvllms.github.io/teaching/">CS-5624: Natural Language Processing (Spring 2025)</a></td>
+      </tr>
+    </table>
 </div>
