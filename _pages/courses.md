@@ -2,10 +2,8 @@
 layout: page
 title: courses
 permalink: /courses/
-description: A growing collection of your cool courses.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
 horizontal: false
 ---
 
