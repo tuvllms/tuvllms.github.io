@@ -169,6 +169,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  courses:
+    output: true
+    permalink: /courses/:path/
 
 announcements:
   enabled: true
@@ -368,6 +371,8 @@ enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
+enable_course_categories:  true   # enables categorization of courses into
+                                   # multiple categories                                   
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
