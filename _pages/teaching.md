@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 5
 display_categories: ['Spring 2025']
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
