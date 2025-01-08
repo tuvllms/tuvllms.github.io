@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT). I am also a Faculty Researcher at <a href='https://research.google'>Google</a>. Prior to joining VT, I held the position of Research Scientist at <a href='https://deepmind.google'>Google DeepMind</a> for a year after receiving my PhD in Computer Science from the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. 
 </p>
 <p>
-My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
+🔍 My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
 </p>
 
 - <span class="font-weight-bold">Efficient model development:</span> developing techniques to create more powerful LLMs using less computational power and data
@@ -30,6 +30,7 @@ My research aims to develop effective and efficient methods for advancing and de
 - <span class="font-weight-bold">Search engine augmentation:</span> combining LLMs with search engines to improve their factual accuracy and ability to access up-to-date information
 - <span class="font-weight-bold">Instruction tuning:</span> enhancing LLMs' instruction-following capabilities
 - <span class="font-weight-bold">Advanced reasoning:</span> improving LLMs' ability to solve complex reasoning problems
+- <span class="font-weight-bold">LLM-as-a-Judge:</span> exploring the potential and limitations of LLMs for automatic evaluation.
 
 
 {% details ⭐ For prospective PhD students %}
