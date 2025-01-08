@@ -30,7 +30,7 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 - <span class="font-weight-bold">Search engine augmentation:</span> combining LLMs with search engines to improve their factual accuracy and ability to access up-to-date information
 - <span class="font-weight-bold">Instruction tuning:</span> enhancing LLMs' instruction-following capabilities
 - <span class="font-weight-bold">Advanced reasoning:</span> improving LLMs' ability to solve complex reasoning problems
-- <span class="font-weight-bold">LLM-as-a-Judge:</span> developing methods to enhance LLMs for automatic evaluation.
+- <span class="font-weight-bold">LLM-as-a-Judge:</span> developing techniques to enhance LLMs for automatic evaluation.
 
 
 {% details ⭐ For prospective PhD students %}
