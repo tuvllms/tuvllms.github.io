@@ -25,12 +25,10 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 🔍 My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
 </p>
 
-- <span class="font-weight-bold">Efficient model development:</span> developing techniques to create more powerful LLMs using less computational power and data
-- <span class="font-weight-bold">Parameter-efficient transfer learning:</span> efficiently transferring knowledge across tasks, languages, and modalities
-- <span class="font-weight-bold">Search engine augmentation:</span> combining LLMs with search engines to improve their factual accuracy and ability to access up-to-date information
-- <span class="font-weight-bold">Instruction tuning:</span> enhancing LLMs' instruction-following capabilities
-- <span class="font-weight-bold">Advanced reasoning:</span> improving LLMs' ability to solve complex reasoning problems
-- <span class="font-weight-bold">LLM-as-a-Judge:</span> developing techniques to enhance LLMs for automatic evaluation.
+- <span class="font-weight-bold">Advancing LLMs:</span> improving LLMs's critical capabilities (e.g., reasoning and instruction following), and their emergent use in evaluation (e.g., LM-as-a-Judge or LLM-as-a-Critic)
+- <span class="font-weight-bold">Transfer learning:</span> reusing learned knowledge or components efficiently across settings (e.g., tasks, languages, modalities, or models)
+- <span class="font-weight-bold">LLM updating:</span> keeping LLMs current by efficiently incorporating factual and up-to-date information with minimal retraining
+- <span class="font-weight-bold">Parameter-efficient adaptation:</span> adjusting LLMs to new distributions (e.g., unseen tasks, domains, or languages) effectively.
 
 
 {% details ⭐ For prospective PhD students %}
