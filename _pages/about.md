@@ -25,7 +25,7 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 🔍 My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
 </p>
 
-- <span class="font-weight-bold">Advancing LLMs:</span> improving LLMs's critical capabilities, including reasoning and instruction following, and their emergent use in evaluation (e.g., LM-as-a-Judge or LLM-as-a-Critic)
+- <span class="font-weight-bold">Advancing LLMs:</span> improving LLMs' critical capabilities, including reasoning and instruction following, and their emergent use in evaluation (e.g., LM-as-a-Judge or LLM-as-a-Critic)
 - <span class="font-weight-bold">Transfer learning:</span> reusing learned knowledge or components efficiently across settings (e.g., tasks, languages, modalities, or models)
 - <span class="font-weight-bold">LLM updating:</span> keeping LLMs current by efficiently incorporating factual and up-to-date information with minimal retraining
 - <span class="font-weight-bold">Parameter-efficient adaptation:</span> adjusting LLMs to new distributions (e.g., unseen tasks, domains, or languages) efficiently, especially in low-resource settings.
