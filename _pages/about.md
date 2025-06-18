@@ -33,14 +33,14 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 
 {% details ⭐ For prospective PhD students %}
 <p>
-I plan to recruit one or two PhD students every year. If you are interested in joining my group, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the VT Graduate School and list me as a potential advisor. Please also check out the <a href='https://cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/Graduate/Prospective.html'>information for prospective students</a>. Due to the high volume of emails I receive, I may not be able to respond to each one individually; please don't be discouraged — I may still review your application.
+I plan to recruit one new PhD student every year. If you are interested in joining my group, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the VT Graduate School and list me as a potential advisor. Please also check out the <a href='https://cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/Graduate/Prospective.html'>information for prospective students</a>. Due to the high volume of emails I receive, I may not be able to respond to each one individually; please don't be discouraged — I may still review your application.
 </p>
 {% enddetails %}
 
 
 {% details ⭐ For Undergraduate and Masters students at VT %}
 <p>
-I am happy to collaborate on research with current VT students, ideally those who have at least one full calendar year remaining until graduation. If you are interested, feel free to email me or visit during my office hours.
+I am happy to collaborate on research with current VT students who have at least one full academic year until graduation. If you are interested, feel free to email me. I will follow up if there is a good fit.
 </p>
 {% enddetails %}
 
