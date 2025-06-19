@@ -15,6 +15,34 @@
     highlighted_author={Tu Vu},
 }
 
+@InProceedings{lin-etal-2025-efficient,
+    title = "Efficient Model Development through Fine-tuning Transfer",
+    author = "Lin, Pin-Jie and Balasubramanian, Rishab and Liu, Fengyuan and Kandpal, Nikhil and Vu, Tu",
+    booktitle={arXiv preprint arXiv:2410.03617},
+    year={2025},
+    abstract={Modern LLMs struggle with efficient updates, as each new pretrained model version requires repeating expensive alignment processes. This challenge also applies to domain- or language-specific models, where fine-tuning on specialized data must be redone for every new base model release. In this paper, we explore the transfer of fine-tuning updates between model versions. Specifically, we derive the diff vector from one source model version, which represents the weight changes from fine-tuning, and apply it to the base model of a different target version. Through empirical evaluations on various open-weight model versions, we show that transferring diff vectors can significantly improve the target base model, often achieving performance comparable to its fine-tuned counterpart. For example, reusing the fine-tuning updates from Llama 3.0 8B leads to an absolute accuracy improvement of 10.7% on GPQA over the base Llama 3.1 8B without additional training, surpassing Llama 3.1 8B Instruct. In a multilingual model development setting, we show that this approach can significantly increase performance on target-language tasks without retraining, achieving an absolute improvement of 4.7% and 15.5% on Global MMLU for Malagasy and Turkish, respectively, compared to Llama 3.1 8B Instruct. Our controlled experiments reveal that fine-tuning transfer is most effective when the source and target models are linearly connected in the parameter space. Additionally, we demonstrate that fine-tuning transfer offers a stronger and more computationally efficient starting point for further fine-tuning. Finally, we propose an iterative recycling-then-finetuning approach for continuous model development, which improves both efficiency and effectiveness. Our findings suggest that fine-tuning transfer is a viable strategy to reduce training costs while maintaining model performance.},
+    abbr={Preprint},
+    arxiv={2503.20110},
+    pdf={https://arxiv.org/pdf/2503.20110},
+    bibtex_show={true},
+    preprint={true},
+    highlighted_author={Tu Vu},
+}
+
+@InProceedings{pham-etal-2025-sealqa,
+    title = "SealQA: Raising the Bar for Reasoning in Search-Augmented Language Models",
+    author = "Pham, Thinh and Nguyen, Nguyen and Zunjare, Pratibha and Chen, Weiyuan and Tseng, Yu-Min and Vu, Tu",
+    booktitle={arXiv preprint arXiv:2410.03617},
+    year={2025},
+    abstract={We introduce SealQA, a new challenge benchmark for evaluating SEarch-Augmented Language models on fact-seeking questions where web search yields conflicting, noisy, or unhelpful results. SealQA comes in three flavors: (1) Seal-0 (main) and (2) Seal-Hard, which assess factual accuracy and reasoning capabilities, with Seal-0 focusing on the most challenging questions where chat models (e.g., GPT-4.1) typically achieve near-zero accuracy; and (3) LongSeal, which extends SealQA to test long-context, multi-document reasoning in "needle-in-a-haystack" settings. Our evaluation reveals critical limitations in current models: Even frontier LLMs perform poorly across all SealQA flavors. On Seal-0, frontier agentic models equipped with tools like o3 and o4-mini achieve only 17.1% and 6.3% accuracy, respectively, at their best reasoning efforts. We find that advanced reasoning models such as DeepSeek-R1-671B and o3-mini are highly vulnerable to noisy search results. Notably, increasing test-time compute does not yield reliable gains across o3-mini, o4-mini, and o3, with performance often plateauing or even declining early. Additionally, while recent models are less affected by the "lost-in-the-middle" issue, they still fail to reliably identify relevant documents in LongSeal when faced with numerous distractors. To facilitate future work, we release SealQA at http://huggingface.co/datasets/vtllms/sealqa.},
+    abbr={Preprint},
+    arxiv={2506.01062},
+    pdf={https://arxiv.org/pdf/2506.01062},
+    bibtex_show={true},
+    preprint={true},
+    highlighted_author={Tu Vu},
+}
+
 @InProceedings{yadav-etal-2024-matters,
     title = "What Matters for Model Merging at Scale?",
     author = "Yadav, Prateek and Vu, Tu and Lai, Jonathan and Chronopoulou, Alexandra and Faruqui, Manaal and Bansal, Mohit and Munkhdalai, Tsendsuren",
