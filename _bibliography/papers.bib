@@ -1,19 +1,18 @@
 ---
 ---
 
-@InProceedings{vu-etal-2024-foundational,
-    title="Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation",
-    author="Vu*, Tu and Krishna*, Kalpesh and Alzubi, Salaheddin and Tar, Chris and Faruqui, Manaal and Sung, Yun-Hsuan",
-    booktitle="Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    year={2024},
-    url={https://arxiv.org/abs/2407.10817},
-    abstract={As large language models (LLMs) advance, it becomes more challenging to reliably evaluate their output due to the high costs of human evaluation. To make progress towards better LLM autoraters, we introduce FLAMe, a family of Foundational Large Autorater Models. FLAMe is trained on our large and diverse collection of 100+ quality assessment tasks comprising 5M+ human judgments, curated and standardized using publicly released human evaluations from previous research. FLAMe significantly improves generalization to a wide variety of held-out tasks, outperforming LLMs trained on proprietary data like GPT-4 and Claude-3 on many tasks. We show that FLAMe can also serve as a powerful starting point for further downstream fine-tuning, using reward modeling evaluation as a case study (FLAMe-RM). Notably, on RewardBench, our FLAMe-RM-24B model (with an accuracy of 87.8%) is the top-performing generative model trained exclusively on permissively licensed data, outperforming both GPT-4-0125 (85.9%) and GPT-4o (84.7%). Additionally, we explore a more computationally efficient approach using a novel tail-patch fine-tuning strategy to optimize our FLAMe multitask mixture for reward modeling evaluation (FLAMe-Opt-RM), offering competitive RewardBench performance while requiring approximately 25x less training datapoints. Overall, our FLAMe variants outperform all popular proprietary LLM-as-a-Judge models we consider across 8 out of 12 autorater evaluation benchmarks, encompassing 53 quality assessment tasks, including RewardBench and LLM-AggreFact. Finally, our analysis reveals that FLAMe is significantly less biased than these LLM-as-a-Judge models on the CoBBLEr autorater bias benchmark, while effectively identifying high-quality responses for code generation.},
-    abbr={EMNLP},
-    arxiv={2407.10817},
-    pdf={https://arxiv.org/pdf/2407.10817.pdf},
+@InProceedings{pham-etal-2025-sealqa,
+    title = "SealQA: Raising the Bar for Reasoning in Search-Augmented Language Models",
+    author = "Pham, Thinh and Nguyen, Nguyen and Zunjare, Pratibha and Chen, Weiyuan and Tseng, Yu-Min and Vu, Tu",
+    booktitle={arXiv preprint arXiv:2410.03617},
+    year={2025},
+    abstract={We introduce SealQA, a new challenge benchmark for evaluating SEarch-Augmented Language models on fact-seeking questions where web search yields conflicting, noisy, or unhelpful results. SealQA comes in three flavors: (1) Seal-0 (main) and (2) Seal-Hard, which assess factual accuracy and reasoning capabilities, with Seal-0 focusing on the most challenging questions where chat models (e.g., GPT-4.1) typically achieve near-zero accuracy; and (3) LongSeal, which extends SealQA to test long-context, multi-document reasoning in "needle-in-a-haystack" settings. Our evaluation reveals critical limitations in current models: Even frontier LLMs perform poorly across all SealQA flavors. On Seal-0, frontier agentic models equipped with tools like o3 and o4-mini achieve only 17.1% and 6.3% accuracy, respectively, at their best reasoning efforts. We find that advanced reasoning models such as DeepSeek-R1-671B and o3-mini are highly vulnerable to noisy search results. Notably, increasing test-time compute does not yield reliable gains across o3-mini, o4-mini, and o3, with performance often plateauing or even declining early. Additionally, while recent models are less affected by the "lost-in-the-middle" issue, they still fail to reliably identify relevant documents in LongSeal when faced with numerous distractors. To facilitate future work, we release SealQA at http://huggingface.co/datasets/vtllms/sealqa.},
+    abbr={Preprint},
+    arxiv={2506.01062},
+    pdf={https://arxiv.org/pdf/2506.01062},
     bibtex_show={true},
-    selected={true},
-    highlight={// The top-performing generative model on <a href="https://huggingface.co/spaces/allenai/reward-bench" style="color: #d92f7c;">RewardBench</a> as of July 15, 2024, trained only on publicly available data}
+    preprint={true},
+    highlighted_author={Tu Vu},
 }
 
 @InProceedings{yadav-etal-2024-matters,
@@ -28,6 +27,21 @@
     bibtex_show={true},
     preprint={true},
     highlighted_author={Tu Vu},
+}
+
+@InProceedings{vu-etal-2024-foundational,
+    title="Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation",
+    author="Vu*, Tu and Krishna*, Kalpesh and Alzubi, Salaheddin and Tar, Chris and Faruqui, Manaal and Sung, Yun-Hsuan",
+    booktitle="Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    year={2024},
+    url={https://arxiv.org/abs/2407.10817},
+    abstract={As large language models (LLMs) advance, it becomes more challenging to reliably evaluate their output due to the high costs of human evaluation. To make progress towards better LLM autoraters, we introduce FLAMe, a family of Foundational Large Autorater Models. FLAMe is trained on our large and diverse collection of 100+ quality assessment tasks comprising 5M+ human judgments, curated and standardized using publicly released human evaluations from previous research. FLAMe significantly improves generalization to a wide variety of held-out tasks, outperforming LLMs trained on proprietary data like GPT-4 and Claude-3 on many tasks. We show that FLAMe can also serve as a powerful starting point for further downstream fine-tuning, using reward modeling evaluation as a case study (FLAMe-RM). Notably, on RewardBench, our FLAMe-RM-24B model (with an accuracy of 87.8%) is the top-performing generative model trained exclusively on permissively licensed data, outperforming both GPT-4-0125 (85.9%) and GPT-4o (84.7%). Additionally, we explore a more computationally efficient approach using a novel tail-patch fine-tuning strategy to optimize our FLAMe multitask mixture for reward modeling evaluation (FLAMe-Opt-RM), offering competitive RewardBench performance while requiring approximately 25x less training datapoints. Overall, our FLAMe variants outperform all popular proprietary LLM-as-a-Judge models we consider across 8 out of 12 autorater evaluation benchmarks, encompassing 53 quality assessment tasks, including RewardBench and LLM-AggreFact. Finally, our analysis reveals that FLAMe is significantly less biased than these LLM-as-a-Judge models on the CoBBLEr autorater bias benchmark, while effectively identifying high-quality responses for code generation.},
+    abbr={EMNLP},
+    arxiv={2407.10817},
+    pdf={https://arxiv.org/pdf/2407.10817.pdf},
+    bibtex_show={true},
+    selected={true},
+    highlight={// The top-performing generative model on <a href="https://huggingface.co/spaces/allenai/reward-bench" style="color: #d92f7c;">RewardBench</a> as of July 15, 2024, trained only on publicly available data}
 }
 
 @InProceedings{geminiteam2024gemini,
