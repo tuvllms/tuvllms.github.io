@@ -14,6 +14,7 @@ news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 teaching: true # includes a list of courses
 advisees: true # includes a list of advisees
+preprints: true # includes a list of papers marked as "preprint={true}"
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
