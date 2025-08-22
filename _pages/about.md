@@ -27,7 +27,7 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 </p>
 
 - <span class="font-weight-bold">Advancing LLMs:</span> improving LLMs' critical capabilities, including reasoning and instruction following, and their emergent use in evaluation (e.g., LM-as-a-Judge or LLM-as-a-Critic)
-- <span class="font-weight-bold">Efficient model development through transfer learning:</span> reusing learned knowledge or components effectively across settings (e.g., tasks, languages, modalities, or models)
+- <span class="font-weight-bold">Efficient model development:</span> reusing learned knowledge or components effectively across settings (e.g., tasks, languages, modalities, or models)
 - <span class="font-weight-bold">Search agents / search-augmented LLMs:</span> enabling models to respond accurately to recent events while reasoning effectively over conflicting or manipulated retrieved inputs
 - <span class="font-weight-bold">Parameter-efficient adaptation:</span> adjusting LLMs to new distributions (e.g., unseen tasks, domains, or languages) efficiently, especially in low-resource settings.
 
