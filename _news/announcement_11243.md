@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:moneybag: Our lab received a research gift from Adobe :pray:
+:chart_increasing: Our lab received a research gift from Adobe :pray:
