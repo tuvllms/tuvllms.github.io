@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:speaking_head: Invited featured speaker at the Open AGI Symposium at UC Berkeley, hosted by Sentient
+:speaking_head: Featured invited speaker at the Open AGI Symposium at UC Berkeley, hosted by Sentient
