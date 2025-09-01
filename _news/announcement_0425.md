@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:chart_increasing: I received the New Faculty Mentoring Grant from VT :pray:
+:chart_with_upwards_trend: I received the New Faculty Mentoring Grant from VT :pray:
