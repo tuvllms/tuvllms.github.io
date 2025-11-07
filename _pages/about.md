@@ -26,11 +26,10 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 🔍 My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
 </p>
 
-- <span class="font-weight-bold">Advancing LLMs:</span> improving LLMs' critical capabilities, including reasoning and instruction following, and their emergent use in evaluation (e.g., LM-as-a-Judge or LLM-as-a-Critic)
-- <span class="font-weight-bold">Efficient model development:</span> reusing learned knowledge or components effectively across settings (e.g., tasks, languages, modalities, or models)
-- <span class="font-weight-bold">Search agents / search-augmented LLMs:</span> enabling models to respond accurately to recent events while reasoning effectively over conflicting or manipulated retrieved inputs
-- <span class="font-weight-bold">Parameter-efficient adaptation:</span> adjusting LLMs to new distributions (e.g., unseen tasks, domains, or languages) efficiently, especially in low-resource settings.
-
+- <span class="font-weight-bold">Deep thinking:</span> Developing models that explore diverse reasoning paths and synthesize novel, creative, and high-quality solutions to complex problems
+- <span class="font-weight-bold">Agentic memory and context engineering:</span> Developing mechanisms that allow agents to store, retrieve, and use information efficiently over long contexts
+- <span class="font-weight-bold">Efficient transfer and adaptation:</span> Reusing learned knowledge across tasks, languages, modalities, or models to adapt effectively in new or low-resource settings with minimal computational cost, data, and storage
+- <span class="font-weight-bold">Factuality and freshness:</span> Developing methods that keep models up-to-date and responsive to new or evolving information while reasoning effectively over conflicting or manipulated retrieved inputs
 
 {% details ⭐ For prospective PhD students %}
 <p>
