@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:chart_with_upwards_trend: Our lab received a research gift from Adobe :pray:
+:chart_with_upwards_trend: Our lab received a research gift award from Adobe :pray:
