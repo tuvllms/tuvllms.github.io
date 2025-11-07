@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:briefcase: I started my professorship at Virginia Tech
+:briefcase: Started my professorship at Virginia Tech
