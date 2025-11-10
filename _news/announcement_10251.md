@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:chart_with_upwards_trend: Received a research gift award from Google DeepMind :pray:
+:chart_with_upwards_trend: Received research gift awards from Google DeepMind and Google Research :pray:
