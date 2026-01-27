@@ -26,10 +26,10 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 🔍 My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Specific areas of focus include:
 </p>
 
-- <span class="font-weight-bold">Deep thinking:</span> Developing models that explore diverse reasoning paths and synthesize novel, creative, and high-quality solutions to complex problems
-- <span class="font-weight-bold">Agentic memory and context engineering:</span> Developing mechanisms that allow agents to store, retrieve, and use information efficiently over long contexts
-- <span class="font-weight-bold">Efficient transfer and adaptation:</span> Reusing learned knowledge across tasks, languages, modalities, or models to adapt effectively in new or low-resource settings with minimal computational cost, data, and storage
-- <span class="font-weight-bold">Efficient model updating:</span> Developing methods that keep models up-to-date and responsive to new or evolving information while reasoning effectively over conflicting or manipulated retrieved inputs
+- <span class="font-weight-bold">"Deep Think":</span> Exploring diverse reasoning paths and synthesizing creative, high-quality solutions
+- <span class="font-weight-bold">Agentic memory and context engineering:</span> Storing, retrieving, and using information efficiently over long contexts
+- <span class="font-weight-bold">Efficient transfer and adaptation:</span> Reusing learned knowledge across tasks, languages, modalities, or models to adapt effectively (e.g., in low-resource settings)
+- <span class="font-weight-bold">Efficient model updating:</span> Keeping models up to date while reasoning robustly over conflicting or manipulated retrieved inputs
 
 {% details ⭐ For prospective PhD students %}
 <p>
@@ -40,7 +40,7 @@ I plan to recruit one new PhD student every year. If you are interested in joini
 
 {% details ⭐ For Undergraduate and Masters students at VT %}
 <p>
-I am happy to collaborate on research with current VT students who have at least one full academic year until graduation. If you are interested, feel free to email me. I will follow up if there is a good fit.
+I am happy to collaborate on research with current VT students who have at least one full academic year until graduation. If you are interested, feel free to email me. I may follow up later if there is a good fit, even if I do not respond immediately.
 </p>
 {% enddetails %}
 
