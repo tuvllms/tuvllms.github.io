@@ -40,7 +40,7 @@ I plan to recruit one new PhD student every year. If you are interested in joini
 
 {% details ⭐ For Undergraduate and Masters students at VT %}
 <p>
-I am happy to collaborate on research with current VT students who have at least one full academic year until graduation. If you are interested, feel free to email me. I may follow up later if there is a good fit, even if I do not respond immediately.
+I am happy to collaborate on research with current VT students who have at least one full academic year until graduation. If you are interested, feel free to email me. I may follow up later if there is a good fit, even if I don't respond immediately.
 </p>
 {% enddetails %}
 
