@@ -28,7 +28,7 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 
 - <span class="font-weight-bold">"Deep Think":</span> Exploring diverse reasoning paths and synthesizing creative, high-quality solutions
 - <span class="font-weight-bold">Agentic memory and context engineering:</span> Storing, retrieving, and using information efficiently over long contexts
-- <span class="font-weight-bold">Efficient transfer and adaptation:</span> Reusing learned knowledge across tasks, languages, modalities, or models to adapt effectively (e.g., in low-resource settings)
+- <span class="font-weight-bold">Efficient transfer and adaptation:</span> Reusing learned knowledge across tasks, languages, modalities, or models to adapt efficiently (e.g., in low-resource settings)
 - <span class="font-weight-bold">Efficient model updating:</span> Keeping models up to date while reasoning robustly over conflicting or manipulated retrieved inputs.
 
 {% details ⭐ For prospective PhD students %}
