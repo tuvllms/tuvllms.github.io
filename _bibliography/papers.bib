@@ -1,6 +1,20 @@
 ---
 ---
 
+@InProceedings{alzubi2026roma,
+    title = "ROMA: Recursive Open Meta-Agent Framework for Long-Horizon Multi-Agent Systems",
+    author= "Alzu'bi, Salaheddin and Nama, Baran and Kaz, Arda and Eswaran, Anushri and Chen, Weiyuan and Khetan, Sarvesh and Bala, Rishab and Vu, Tu and Oh, Sewoong",
+    booktitle={arXiv preprint arXiv:2602.01848},
+    year={2026},
+    abstract={Current agentic frameworks underperform on long-horizon tasks. As reasoning depth increases, sequential orchestration becomes brittle, context windows impose hard limits that degrade performance, and opaque execution traces make failures difficult to localize or debug. We introduce ROMA (Recursive Open Meta-Agents), a domain-agnostic framework that addresses these limitations through recursive task decomposition and structured aggregation. ROMA decomposes goals into dependency-aware subtask trees that can be executed in parallel, while aggregation compresses and validates intermediate results to control context growth. Our framework standardizes agent construction around four modular roles --Atomizer (which decides whether a task should be decomposed), Planner, Executor, and Aggregator -- which cleanly separate orchestration from model selection and enable transparent, hierarchical execution traces. This design supports heterogeneous multi-agent systems that mix models and tools according to cost, latency, and capability. To adapt ROMA to specific tasks without fine-tuning, we further introduce GEPA+, an improved Genetic-Pareto prompt proposer that searches over prompts within ROMA's component hierarchy while preserving interface contracts. We show that ROMA, combined with GEPA+, delivers leading system-level performance on reasoning and long-form generation benchmarks. On SEAL-0, which evaluates reasoning over conflicting web evidence, ROMA instantiated with GLM-4.6 improves accuracy by 9.9\% over Kimi-Researcher. On EQ-Bench, a long-form writing benchmark, ROMA enables DeepSeek-V3 to match the performance of leading closed-source models such as Claude Sonnet 4.5. Our results demonstrate that recursive, modular agent architectures can scale reasoning depth while remaining interpretable, flexible, and model-agnostic.},
+    abbr={Preprint},
+    arxiv={2602.01848},
+    pdf={https://arxiv.org/pdf/2602.01848},
+    bibtex_show={true},
+    preprint={true},
+    highlighted_author={Tu Vu},
+}
+
 @InProceedings{pham-etal-2025-sealqa,
     title = "SealQA: Raising the Bar for Reasoning in Search-Augmented Language Models",
     author = "Pham, Thinh and Nguyen, Nguyen and Zunjare, Pratibha and Chen, Weiyuan and Tseng, Yu-Min and Vu, Tu",
