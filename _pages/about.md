@@ -33,7 +33,7 @@ My research aims to develop effective and efficient methods for advancing and de
 
 {% details For prospective PhD students %}
 <p>
-I plan to recruit one new PhD student every year. If you are interested in joining my group, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the VT Graduate School and list me as a potential advisor. Please also check out the <a href='https://students.cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/academic/graduate/future-grads.html'>information for prospective students</a>. Due to the high volume of emails I receive, I may not be able to respond to each one individually; please don't be discouraged — I may still review your application.
+If you are interested in joining my group, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the VT Graduate School and list me as a potential advisor. Please also check out the <a href='https://students.cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/academic/graduate/future-grads.html'>information for prospective students</a>. I may not be able to respond to every email, though I may still review your application.
 </p>
 {% enddetails %}
 
