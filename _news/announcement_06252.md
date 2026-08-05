@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:speaking_head: Invited guest lecture at <a href='https://newturing.ai'>The New Turing Institute</a>
+:speaking_head: Invited lectures at <a href='https://newturing.ai'>The New Turing Institute</a>
