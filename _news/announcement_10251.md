@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:chart_with_upwards_trend: Received research awards from Google DeepMind and Google Research :pray:
+:chart_with_upwards_trend: Received faculty research awards from Google DeepMind and Google Research :pray:
