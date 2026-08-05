@@ -26,8 +26,8 @@ I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT
 My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Current areas of focus include:
 </p>
 
-- <span class="font-weight-bold">Automated discovery and self-improvement:</span> Exploring diverse solutions while iteratively improving reasoning strategies, agent architectures, and execution harnesses (e.g., skills and memory)
-- <span class="font-weight-bold">Agentic context management:</span> Managing context efficiently for long-horizon reasoning
+- <span class="font-weight-bold">Automated discovery and self-improvement:</span> Exploring diverse solutions while iteratively improving reasoning strategies, agent architectures, and execution harnesses (e.g., skills and memory).
+- <span class="font-weight-bold">Agentic context management:</span> Managing context efficiently for long-horizon reasoning.
 - <span class="font-weight-bold">Efficient transfer and adaptation:</span> Reusing learned capabilities across tasks, models, or languages to adapt efficiently.
 - <span class="font-weight-bold">Continual learning and model updating:</span> Keeping models up to date through learning and search.
 
