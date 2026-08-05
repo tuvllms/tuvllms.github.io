@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <p>
-I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT) and a Faculty Researcher at <a href='https://research.google'>Google</a>. At VT, I am also affiliated with the <a href='https://sanghani.cs.vt.edu'>Sanghani Center for Artificial Intelligence & Data Analytics</a>. Prior to joining VT, I held the position of Research Scientist at <a href='https://deepmind.google'>Google DeepMind</a> for a year after receiving my PhD in Computer Science from the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>, advised by <a href='https://people.cs.umass.edu/~miyyer'>Mohit Iyyer</a>. 
+I am an Assistant Professor at <a href='https://cs.vt.edu'>Virginia Tech</a> (VT) and a Faculty Researcher at <a href='https://research.google'>Google</a>. At VT, I am also affiliated with the <a href='https://sanghani.cs.vt.edu'>Sanghani Center for Artificial Intelligence & Data Analytics</a>. Prior to joining VT, I was a Research Scientist at <a href='https://deepmind.google'>Google DeepMind</a> and a PhD student at the <a href='https://www.cics.umass.edu'>University of Massachusetts Amherst</a>. 
 </p>
 <p>
 🔍 My research aims to develop effective and efficient methods for advancing and democratizing artificial intelligence in the era of large language models (LLMs). Current areas of focus include:
