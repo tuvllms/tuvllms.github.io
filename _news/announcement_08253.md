@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:speaking_head: Invited lectures at <a href='https://x.com/tuvllms/status/1962254717016269031/photo/1'>The New Turing Institute's GStar program</a> 
+:speaking_head: Gave two invited lectures at <a href='https://x.com/tuvllms/status/1962254717016269031/photo/1'>The New Turing Institute's GStar program</a> 
