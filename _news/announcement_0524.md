@@ -5,4 +5,6 @@ inline: true
 related_posts: false
 ---
 
-:page_facing_up: <a href='https://arxiv.org/abs/2310.03214'>FreshLLMs</a> got accepted to ACL 2024 Findings! :tada:
+:page_facing_up: Paper to appear at ACL 2024 Findings on <a href='https://arxiv.org/abs/2310.03214'>FreshLLMs</a> (LLM freshness) :tada:
+
+
