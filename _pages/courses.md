@@ -5,6 +5,8 @@ nav: true
 nav_order: 2
 dropdown: true
 children:
+  - title: CS 5624 (Fall 2026)
+    permalink: https://tuvllms.github.io/nlp-fall-2026
   - title: CS 6804 (Spring 2026)
     permalink: https://tuvllms.github.io/ai-seminar-spring-2026
   - title: CS 4804 (Fall 2025)
