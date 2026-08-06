@@ -33,14 +33,14 @@ My research aims to develop effective and efficient methods for advancing and de
 
 {% details For prospective PhD students %}
 <p>
-If you are interested in joining my group, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the VT Graduate School and list me as a potential advisor. Please also check out the <a href='https://students.cs.vt.edu/Graduate/ApplicationDeadlines.html'>application deadlines</a> and <a href='https://website.cs.vt.edu/academic/graduate/future-grads.html'>information for prospective students</a>. I may not be able to respond to every email, though I may still review your application.
+If you are interested in joining my group, please <a href='https://applyto.graduateschool.vt.edu/apply'>apply</a> to the VT Graduate School and list me as a potential advisor. I may not be able to respond to every email, though I may still review your application.
 </p>
 {% enddetails %}
 
 
 {% details For Undergraduate and Masters students at VT %}
 <p>
-I am happy to collaborate on research with current VT students who have at least one full academic year until graduation. If you are interested, feel free to email me. I may follow up later if there is a good fit, even if I don't respond immediately.
+I am happy to collaborate on research with current VT students who have at least one full academic year until graduation. If you are interested, feel free to email me.
 </p>
 {% enddetails %}
 
