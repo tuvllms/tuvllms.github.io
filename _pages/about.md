@@ -12,6 +12,7 @@ profile:
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
+service: true # includes a list of services
 teaching: true # includes a list of courses
 advisees: true # includes a list of advisees
 preprints: true # includes a list of papers marked as "preprint={true}"
