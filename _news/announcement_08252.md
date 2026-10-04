@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:page_facing_up: Paper to appear at EMNLP 2025: <a href='https://arxiv.org/abs/2503.20110'>alignment transfer</a> :tada:
+:page_facing_up: Paper to appear at EMNLP 2025: <a href='https://arxiv.org/abs/2503.20110'>alignment transfer</a> (oral, top 4.0% out of 8k+ submissions) :tada:
