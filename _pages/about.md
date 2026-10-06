@@ -15,8 +15,8 @@ latest_posts: false  # includes a list of the newest posts
 service: true # includes a list of services
 teaching: true # includes a list of courses
 advisees: true # includes a list of advisees
-preprints: true # includes a list of papers marked as "preprint={true}"
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_recent: true # includes a list of papers marked as "selected_recent={true}"
+selected_prior: true # includes a list of papers marked as "selected_prior={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
