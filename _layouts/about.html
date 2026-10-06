@@ -78,14 +78,14 @@ layout: default
           <!-- Selected papers -->
           {% if page.preprints -%}
             <h2 style="color: var(--global-title-color);">Preprints</h2>
-            {%- include preprints.html %}
+            {%- include selected_recent.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2 style="color: var(--global-title-color);">Selected publications</h2>
             For an up-to-date list of my research papers, please see my <a href='https://scholar.google.com/citations?user=tOevwEEAAAAJ&hl=en'>Google Scholar</a> profile. * denotes equal contribution. 
-            {%- include selected_papers.html %}
+            {%- include selected_prior.html %}
           {%- endif %}
 
           <!-- Social -->
