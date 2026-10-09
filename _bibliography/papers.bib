@@ -144,60 +144,83 @@
     highlighted_author={Tu Vu},
 }
 
-@InProceedings{vu-etal-2024-foundational,
-    title="Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation",
-    author="Vu*, Tu and Krishna*, Kalpesh and Alzubi, Salaheddin and Tar, Chris and Faruqui, Manaal and Sung, Yun-Hsuan",
-    booktitle="Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    year={2024},
-    url={https://arxiv.org/abs/2407.10817},
-    abstract={As large language models (LLMs) advance, it becomes more challenging to reliably evaluate their output due to the high costs of human evaluation. To make progress towards better LLM autoraters, we introduce FLAMe, a family of Foundational Large Autorater Models. FLAMe is trained on our large and diverse collection of 100+ quality assessment tasks comprising 5M+ human judgments, curated and standardized using publicly released human evaluations from previous research. FLAMe significantly improves generalization to a wide variety of held-out tasks, outperforming LLMs trained on proprietary data like GPT-4 and Claude-3 on many tasks. We show that FLAMe can also serve as a powerful starting point for further downstream fine-tuning, using reward modeling evaluation as a case study (FLAMe-RM). Notably, on RewardBench, our FLAMe-RM-24B model (with an accuracy of 87.8%) is the top-performing generative model trained exclusively on permissively licensed data, outperforming both GPT-4-0125 (85.9%) and GPT-4o (84.7%). Additionally, we explore a more computationally efficient approach using a novel tail-patch fine-tuning strategy to optimize our FLAMe multitask mixture for reward modeling evaluation (FLAMe-Opt-RM), offering competitive RewardBench performance while requiring approximately 25x less training datapoints. Overall, our FLAMe variants outperform all popular proprietary LLM-as-a-Judge models we consider across 8 out of 12 autorater evaluation benchmarks, encompassing 53 quality assessment tasks, including RewardBench and LLM-AggreFact. Finally, our analysis reveals that FLAMe is significantly less biased than these LLM-as-a-Judge models on the CoBBLEr autorater bias benchmark, while effectively identifying high-quality responses for code generation.},
-    abbr={EMNLP},
-    arxiv={2407.10817},
-    pdf={https://arxiv.org/pdf/2407.10817.pdf},
-    bibtex_show={true},
-    selected_prior={true},
-    highlight={// The top-performing generative model on <a href="https://huggingface.co/spaces/allenai/reward-bench" style="color: #d92f7c;">RewardBench</a> as of July 15, 2024, trained only on publicly available data}
-}
-
-@InProceedings{yadav-etal-2024-matters,
-    title = "What Matters for Model Merging at Scale?",
-    author = "Yadav, Prateek and Vu, Tu and Lai, Jonathan and Chronopoulou, Alexandra and Faruqui, Manaal and Bansal, Mohit and Munkhdalai, Tsendsuren",
-    booktitle={Transactions on Machine Learning Research},
+@article{
+    yadav2025what,
+    title={What Matters for Model Merging at Scale?},
+    author={Prateek Yadav and Tu Vu and Jonathan Lai and Alexandra Chronopoulou and Manaal Faruqui and Mohit Bansal and Tsendsuren Munkhdalai},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
     year={2025},
-    url={https://arxiv.org/abs/2410.03617},
-    abstract={Model merging aims to combine multiple expert models into a more capable single model, offering benefits such as reduced storage and serving costs, improved generalization, and support for decentralized model development. Despite its promise, previous studies have primarily focused on merging a few small models. This leaves many unanswered questions about the effect of scaling model size and how it interplays with other key factors -- like the base model quality and number of expert models -- , to affect the merged model's performance. This work systematically evaluates the utility of model merging at scale, examining the impact of these different factors. We experiment with merging fully fine-tuned models using 4 popular merging methods -- Averaging, Task~Arithmetic, Dare, and TIES -- across model sizes ranging from 1B-64B parameters and merging up to 8 different expert models. We evaluate the merged models on both held-in tasks, i.e., the expert's training tasks, and zero-shot generalization to unseen held-out tasks. Our experiments provide several new insights about model merging at scale and the interplay between different factors. First, we find that merging is more effective when experts are created from strong base models, i.e., models with good zero-shot performance. Second, larger models facilitate easier merging. Third merging consistently improves generalization capabilities. Notably, when merging 8 large expert models, the merged models often generalize better compared to the multitask trained models. Fourth, we can better merge more expert models when working with larger models. Fifth, different merging methods behave very similarly at larger scales. Overall, our findings shed light on some interesting properties of model merging while also highlighting some limitations. We hope that this study will serve as a reference point on large-scale merging for upcoming research.},
+    url={https://openreview.net/forum?id=9sbetmvNpW},
+    abstract={Model merging aims to combine multiple expert models into a more capable single model, offering benefits such as reduced storage and serving costs, improved generalization, and support for decentralized model development. Despite its promise, previous studies have primarily focused on merging a few small models. This leaves many unanswered questions about the effect of scaling model size and how it interplays with other key factors—like the base model quality and number of expert models— to affect the merged model’s performance. This work systematically evaluates the utility of model merging at scale for transformer based models to examine the impact of these different factors. We experiment with merging fully fine-tuned models using four popular merging methods—Averaging, Task Arithmetic, Dare-TIES, and TIES-Merging—across model sizes ranging from 1B to 64B parameters and merging up to 8 different expert models. We evaluate the merged models on both held-in tasks, i.e., the expert’s training tasks, and zero-shot generalization to unseen held-out tasks. Our wide range of experiments provide several new insights about merging transformer based models at scale and the interplay between different factors. First, we find that merging is more effective when experts are created from strong base models, i.e., models with good zero-shot performance, compared to pre-trained ones. Second, larger models perform better when merged. Third merging consistently improves generalization capabilities. Notably, when merging eight large expert models, the merged models often generalize better compared to the multitask trained models. Fourth, we can better merge more expert models when working with larger models. Fifth, different merging methods behave very similarly at larger scales. Overall, our findings shed light on some interesting properties of model merging while also highlighting some limitations.},
     abbr={TMLR},
     arxiv={2410.03617},
-    pdf={https://arxiv.org/pdf/2410.03617},
-    bibtex_show={true},
-    selected={true},
+    pdf={https://openreview.net/pdf?id=9sbetmvNpW},
     highlighted_author={Tu Vu},
+    bibtex_show={true},
 }
 
-@InProceedings{vu-etal-2024-freshllms,
-    title="{F}resh{LLM}s: Refreshing large language models with search engine augmentation",
-    author="Vu, Tu  and
-        Iyyer, Mohit  and
-        Wang, Xuezhi  and
-        Constant, Noah  and
-        Wei, Jerry  and
-        Wei, Jason  and
-        Tar, Chris  and
-        Sung, Yun-Hsuan  and
-        Zhou, Denny  and
-        Le, Quoc  and
-        Luong, Thang",
-    booktitle="Findings of the Association for Computational Linguistics: ACL 2024",
-    year="2024",
-    url="https://aclanthology.org/2024.findings-acl.813/",
-    pages="13697--13720",
-    abstract={Most large language models (LLMs) are trained once and never updated; thus, they lack the ability to dynamically adapt to our ever-changing world. In this work, we perform a detailed study of the factuality of LLM-generated text in the context of answering questions that test current world knowledge. Specifically, we introduce FreshQA, a novel dynamic QA benchmark encompassing a diverse range of question and answer types, including questions that require fast-changing world knowledge as well as questions with false premises that need to be debunked. We benchmark a diverse array of both closed and open-source LLMs under a two-mode evaluation procedure that allows us to measure both correctness and hallucination. Through human evaluations involving more than 50K judgments, we shed light on limitations of these models and demonstrate significant room for improvement: for instance, all models (regardless of model size) struggle on questions that involve fast-changing knowledge and false premises. Motivated by these results, we present FreshPrompt, a simple few-shot prompting method that substantially boosts the performance of an LLM on FreshQA by incorporating relevant and up-to-date information retrieved from a search engine into the prompt. Our experiments show that FreshPrompt outperforms both competing search engine-augmented prompting methods such as Self-Ask (Press et al., 2022) as well as commercial systems such as Perplexity.AI. Further analysis of FreshPrompt reveals that both the number of retrieved evidences and their order play a key role in influencing the correctness of LLM-generated answers. Additionally, instructing the LLM to generate concise and direct answers helps reduce hallucination compared to encouraging more verbose answers. To facilitate future work, we release FreshQA at github.com/freshllms/freshqa and commit to updating it at regular intervals.},
+@inproceedings{vu-etal-2024-foundational,
+    title = "Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation",
+    author = "Vu, Tu  and
+      Krishna, Kalpesh  and
+      Alzubi, Salaheddin  and
+      Tar, Chris  and
+      Faruqui, Manaal  and
+      Sung, Yun-Hsuan",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.949/",
+    doi = "10.18653/v1/2024.emnlp-main.949",
+    pages = "17086--17105",
+    abstract = "As large language models (LLMs) evolve, evaluating their output reliably becomes increasingly difficult due to the high cost of human evaluation. To address this, we introduce FLAMe, a family of Foundational Large Autorater Models. FLAMe is trained on a diverse set of over 100 quality assessment tasks, incorporating 5M+ human judgments curated from publicly released human evaluations. FLAMe outperforms models like GPT-4 and Claude-3 on various held-out tasks, and serves as a powerful starting point for fine-tuning, as shown in our reward model evaluation case study (FLAMe-RM). On Reward-Bench, FLAMe-RM-24B achieves 87.8{\%} accuracy, surpassing GPT-4-0125 (85.9{\%}) and GPT-4o (84.7{\%}). Additionally, we introduce FLAMe-Opt-RM, an efficient tail-patch fine-tuning approach that offers competitive RewardBench performance using 25{\texttimes}fewer training datapoints. Our FLAMe variants outperform popular proprietary LLM-as-a-Judge models on 8 of 12 autorater benchmarks, covering 53 quality assessment tasks, including RewardBench and LLM-AggreFact. Finally, our analysis shows that FLAMe is significantly less biased than other LLM-as-a-Judge models on the CoBBLEr autorater bias benchmark.",
+    abbr={EMNLP},
+    arxiv={2407.10817},
+    pdf={https://arxiv.org/pdf/2407.10817},
+    selected_prior={true},
+    highlighted_author={Tu Vu},
+    highlight={// The top-performing generative model on <a href="https://huggingface.co/spaces/allenai/reward-bench" style="color: #d92f7c;">RewardBench</a> as of July 15, 2024, trained only on publicly available data},
+    bibtex_show={true},
+}
+
+@inproceedings{vu-etal-2024-freshllms,
+    title = "{F}resh{LLM}s: Refreshing Large Language Models with Search Engine Augmentation",
+    author = "Vu, Tu  and
+      Iyyer, Mohit  and
+      Wang, Xuezhi  and
+      Constant, Noah  and
+      Wei, Jerry  and
+      Wei, Jason  and
+      Tar, Chris  and
+      Sung, Yun-Hsuan  and
+      Zhou, Denny  and
+      Le, Quoc  and
+      Luong, Thang",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.813/",
+    doi = "10.18653/v1/2024.findings-acl.813",
+    pages = "13697--13720",
+    abstract = "Since most large language models (LLMs) are trained once and never updated, they struggle to dynamically adapt to our ever-changing world. In this work, we present FreshQA, a dynamic QA benchmark that tests a model{'}s ability to answer questions that may require reasoning over up-to-date world knowledge. We develop a two-mode human evaluation procedure to measure both correctness and hallucination, which we use to benchmark both closed and open-source LLMs by collecting {\ensuremath{>}}50K human judgments. We observe that all LLMs struggle to answer questions that require fast-changing world knowledge as well as questions with false premises that need to be debunked. In response, we develop FreshPrompt, a few-shot prompting method that curates and organizes relevant information from a search engine into an LLM{'}s prompt. Our experiments show that FreshPrompt outperforms both competing search engine-augmented prompting methods such as Self-Ask (Press et al., 2022) as well as commercial systems such as Perplexity.AI. To facilitate future work, we additionally develop FreshEval, a reliable autorater for quick evaluation and comparison on FreshQA. Our latest results with FreshEval suggest that open-source LLMs such as Mixtral (Jiang et al., 2024), when combined with FreshPrompt, are competitive with closed-source and commercial systems on search-augmented QA.",
     abbr={ACL},
     arxiv={2310.03214},
     pdf={https://aclanthology.org/2024.findings-acl.813.pdf},
-    bibtex_show={true},
     selected_prior={true},
-    highlight={// ZDNET <a href="https://www.zdnet.com/article/how-google-and-openai-prompted-gpt-4-to-deliver-more-timely-answers/" style="color: #d92f7c;">feature</a> // DAIR.AI's <a href="https://x.com/dair_ai/status/1723740123227902355" style="color: #d92f7c;">Top ML Papers of the Week</a> // Our dataset and method have inspired or been used for the development of <a href="https://gemini.google.com" style="color: #d92f7c;">Google's Gemini</a>, <a href="https://blog.perplexity.ai/blog/introducing-pplx-online-llms" style="color: #d92f7c;">Perplexity.AI's Online LLMs</a>, <a href="https://you.com/articles/introducing-the-you-api-web-scale-search-for-llms" style="color: #d92f7c;">You.com</a>, and <a href="https://contextual.ai/introducing-rag2/" style="color: #d92f7c;">Contextual AI's RAG 2.0</a>}
+    highlighted_author={Tu Vu},
+    highlight={// ZDNET <a href="https://www.zdnet.com/article/how-google-and-openai-prompted-gpt-4-to-deliver-more-timely-answers/" style="color: #d92f7c;">feature</a> // DAIR.AI's <a href="https://x.com/dair_ai/status/1723740123227902355" style="color: #d92f7c;">Top ML Papers of the Week</a> // Our dataset and method have inspired or been used for the development of <a href="https://gemini.google.com" style="color: #d92f7c;">Google's Gemini</a>, <a href="https://blog.perplexity.ai/blog/introducing-pplx-online-llms" style="color: #d92f7c;">Perplexity.AI's Online LLMs</a>, <a href="https://you.com/articles/introducing-the-you-api-web-scale-search-for-llms" style="color: #d92f7c;">You.com</a>, and <a href="https://contextual.ai/introducing-rag2/" style="color: #d92f7c;">Contextual AI's RAG 2.0</a>},
+    bibtex_show={true},
 }
 
 @inproceedings{
