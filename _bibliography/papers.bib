@@ -200,20 +200,20 @@
     highlight={// ZDNET <a href="https://www.zdnet.com/article/how-google-and-openai-prompted-gpt-4-to-deliver-more-timely-answers/" style="color: #d92f7c;">feature</a> // DAIR.AI's <a href="https://x.com/dair_ai/status/1723740123227902355" style="color: #d92f7c;">Top ML Papers of the Week</a> // Our dataset and method have inspired or been used for the development of <a href="https://gemini.google.com" style="color: #d92f7c;">Google's Gemini</a>, <a href="https://blog.perplexity.ai/blog/introducing-pplx-online-llms" style="color: #d92f7c;">Perplexity.AI's Online LLMs</a>, <a href="https://you.com/articles/introducing-the-you-api-web-scale-search-for-llms" style="color: #d92f7c;">You.com</a>, and <a href="https://contextual.ai/introducing-rag2/" style="color: #d92f7c;">Contextual AI's RAG 2.0</a>}
 }
 
-@InProceedings{shen2024mixtureofexperts,
+@inproceedings{
+    shen2024mixtureofexperts,
     title={Mixture-of-Experts Meets Instruction Tuning: A Winning Combination for Large Language Models},
-    author={Shen, Sheng and Hou, Le and Zhou, Yanqi and Du, Nan and Longpre, Shayne and Wei, Jason and Chung, Hyung Won and Zoph, Barret and Fedus, William and Chen, Xinyun and Vu, Tu and Wu, Yuexin and Chen, Wuyang and Webson, Albert and Li, Yunxuan and Zhao, Vincent and Yu, Hongkun and Keutzer, Kurt and Darrell, Trevor and Zhou, Denny},
     author={Sheng Shen and Le Hou and Yanqi Zhou and Nan Du and Shayne Longpre and Jason Wei and Hyung Won Chung and Barret Zoph and William Fedus and Xinyun Chen and Tu Vu and Yuexin Wu and Wuyang Chen and Albert Webson and Yunxuan Li and Vincent Y Zhao and Hongkun Yu and Kurt Keutzer and Trevor Darrell and Denny Zhou},
     booktitle={The Twelfth International Conference on Learning Representations},
     year={2024},
-    abstract={Sparse Mixture-of-Experts (MoE) is a neural architecture design that adds learnable parameters to Large Language Models (LLMs) without increasing computational complexity (FLOPs). Instruction tuning is a technique for training LLMs to follow instructions. We advocate combining these two approaches, as we find that MoE models benefit more from instruction tuning than dense models. In particular, we conduct empirical studies across three experimental setups: (i) Direct finetuning on individual downstream tasks devoid of instruction tuning; (ii) Instruction tuning followed by in-context few-shot or zero-shot generalization on downstream tasks; and (iii) Instruction tuning supplemented by further finetuning on individual downstream tasks. In the first scenario, MoE models overall underperform dense models of identical computational capacity. This narrative, however, dramatically changes with the introduction of instruction tuning (in the second and third scenarios), used independently or in conjunction with task-specific finetuning. Our most powerful model, FLAN-MoE-32B, surpasses the performance of Flan-PaLM-62B on four benchmark tasks, while using only a third of the FLOPs. The advancements embodied by FLAN-MoE inspire a reevaluation of the design principles of large-scale, high-performance language models in the framework of task-agnostic learning.},
+    url={https://openreview.net/forum?id=6mLjDwYte5},
     abbr={ICLR},
     arxiv={2305.14705},
-    url={https://openreview.net/forum?id=6mLjDwYte5},
-    pdf={https://arxiv.org/pdf/2305.14705.pdf},
-    bibtex_show={true},
+    pdf={https://openreview.net/pdf?id=6mLjDwYte5},
     selected_prior={true},
-    highlight={// Pioneering work on combining mixture-of-experts and instruction tuning}
+    highlighted_author={Tu Vu},
+    highlight={// Pioneering work on combining mixture-of-experts and instruction tuning},
+    bibtex_show={true},
 }
 
 @InProceedings{team2023gemini,
