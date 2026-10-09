@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-:speaking_head: Invited speaker at <a href='https://meetings.informs.org/wordpress/annual/'>INFORMS 2026</a>
+:speaking_head: Invited to speak at <a href='https://meetings.informs.org/wordpress/annual/'>INFORMS 2026</a>
  
