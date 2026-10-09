@@ -174,23 +174,6 @@
     highlighted_author={Tu Vu},
 }
 
-@InProceedings{geminiteam2024gemini,
-    title={Gemini: A Family of Highly Capable Multimodal Models},
-    author={Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew and Hauth, Anja and others},
-    booktitle={arXiv preprint arXiv:2312.11805},
-    year={2023},
-    abstract={This report introduces a new family of multimodal models, Gemini, that exhibit remarkable capabilities across image, audio, video, and text understanding. The Gemini family consists of Ultra, Pro, and Nano sizes, suitable for applications ranging from complex reasoning tasks to on-device memory-constrained use-cases. Evaluation on a broad range of benchmarks shows that our most-capable Gemini Ultra model advances the state of the art in 30 of 32 of these benchmarks - notably being the first model to achieve human-expert performance on the well-studied exam benchmark MMLU, and improving the state of the art in every one of the 20 multimodal benchmarks we examined. We believe that the new capabilities of the Gemini family in cross-modal reasoning and language understanding will enable a wide variety of use cases. We discuss our approach toward post-training and deploying Gemini models responsibly to users through services including Gemini, Gemini Advanced, Google AI Studio, and Cloud Vertex AI.},
-    abbr={Technical report},
-    arxiv={2312.11805},
-    pdf={https://arxiv.org/pdf/2312.11805},
-    bibtex_show={true},
-    selected_prior={true},
-    google_ai_blog={technology/ai/google-gemini-ai},
-    long_author_list={true},
-    team={Google Gemini Team},
-    highlighted_author={Tu Vu},
-}
-
 @InProceedings{vu-etal-2024-freshllms,
     title="{F}resh{LLM}s: Refreshing large language models with search engine augmentation",
     author="Vu, Tu  and
@@ -217,27 +200,6 @@
     highlight={// ZDNET <a href="https://www.zdnet.com/article/how-google-and-openai-prompted-gpt-4-to-deliver-more-timely-answers/" style="color: #d92f7c;">feature</a> // DAIR.AI's <a href="https://x.com/dair_ai/status/1723740123227902355" style="color: #d92f7c;">Top ML Papers of the Week</a> // Our dataset and method have inspired or been used for the development of <a href="https://gemini.google.com" style="color: #d92f7c;">Google's Gemini</a>, <a href="https://blog.perplexity.ai/blog/introducing-pplx-online-llms" style="color: #d92f7c;">Perplexity.AI's Online LLMs</a>, <a href="https://you.com/articles/introducing-the-you-api-web-scale-search-for-llms" style="color: #d92f7c;">You.com</a>, and <a href="https://contextual.ai/introducing-rag2/" style="color: #d92f7c;">Contextual AI's RAG 2.0</a>}
 }
 
-@InProceedings{pmlr-v202-longpre23a,
-    title={The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},
-    author={Longpre, Shayne and Hou, Le and Vu, Tu and Webson, Albert and Chung, Hyung Won and Tay, Yi and Zhou, Denny and Le, Quoc V and Zoph, Barret and Wei, Jason and Roberts, Adam},
-    booktitle={Proceedings of the 40th International Conference on Machine Learning},
-    pages={22631--22648},
-    year={2023},
-    volume={202},
-    series={Proceedings of Machine Learning Research(PMLR)},
-    publisher={PMLR},
-    url={https://proceedings.mlr.press/v202/longpre23a.html},
-    abstract={We study the design decision of publicly available instruction tuning methods, by reproducing and breaking down the development of Flan 2022 (Chung et al., 2022). Through careful ablation studies on the Flan Collection of tasks and methods, we tease apart the effect of design decisions which enable Flan-T5 to outperform prior work by 3-17% across evaluation settings. We find task balancing and enrichment techniques are overlooked but critical to effective instruction tuning, and in particular, training with mixed prompt settings (zero-shot, few-shot, chain-of-thought) actually yields equivalent or stronger (2%) performance in all settings. In further experiments we show Flan-T5 requires less finetuning to converge higher and faster than T5 on single downstream tasks – motivating instruction-tuned models as more computationally-efficient starting checkpoints for new tasks. Finally, to accelerate research on instruction tuning, we make the Flan 2022 collection of datasets, templates, and methods publicly available.},
-    abbr={ICML},
-    arxiv={2301.13688},
-    pdf={https://proceedings.mlr.press/v202/longpre23a/longpre23a.pdf},
-    data={https://github.com/google-research/FLAN/tree/main/flan/v2},
-    bibtex_show={true},
-    selected_prior={true},
-    highlight={// Pioneering work on large-scale instruction tuning},
-    google_research_blog={2023/02/the-flan-collection-advancing-open.html},
-}
-
 @InProceedings{shen2024mixtureofexperts,
     title={Mixture-of-Experts Meets Instruction Tuning: A Winning Combination for Large Language Models},
     author={Shen, Sheng and Hou, Le and Zhou, Yanqi and Du, Nan and Longpre, Shayne and Wei, Jason and Chung, Hyung Won and Zoph, Barret and Fedus, William and Chen, Xinyun and Vu, Tu and Wu, Yuexin and Chen, Wuyang and Webson, Albert and Li, Yunxuan and Zhao, Vincent and Yu, Hongkun and Keutzer, Kurt and Darrell, Trevor and Zhou, Denny},
@@ -252,6 +214,46 @@
     bibtex_show={true},
     selected_prior={true},
     highlight={// Pioneering work on combining mixture-of-experts and instruction tuning}
+}
+
+@InProceedings{team2023gemini,
+    title={Gemini: A Family of Highly Capable Multimodal Models},
+    author={Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew and Hauth, Anja and others},
+    journal={arXiv preprint arXiv:2312.11805},
+    year={2023},
+    abstract={This report introduces a new family of multimodal models, Gemini, that exhibit remarkable capabilities across image, audio, video, and text understanding. The Gemini family consists of Ultra, Pro, and Nano sizes, suitable for applications ranging from complex reasoning tasks to on-device memory-constrained use-cases. Evaluation on a broad range of benchmarks shows that our most-capable Gemini Ultra model advances the state of the art in 30 of 32 of these benchmarks - notably being the first model to achieve human-expert performance on the well-studied exam benchmark MMLU, and improving the state of the art in every one of the 20 multimodal benchmarks we examined. We believe that the new capabilities of the Gemini family in cross-modal reasoning and language understanding will enable a wide variety of use cases. We discuss our approach toward post-training and deploying Gemini models responsibly to users through services including Gemini, Gemini Advanced, Google AI Studio, and Cloud Vertex AI.},
+    abbr={Technical report},
+    arxiv={2312.11805},
+    pdf={https://arxiv.org/pdf/2312.11805},
+    selected_prior={true},
+    highlighted_author={Tu Vu},
+    google_ai_blog={technology/ai/google-gemini-ai},
+    long_author_list={true},
+    team={Google Gemini Team},
+    bibtex_show={true},
+}
+
+@InProceedings{pmlr-v202-longpre23a,
+    title = 	 {The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},
+    author =       {Longpre, Shayne and Hou, Le and Vu, Tu and Webson, Albert and Chung, Hyung Won and Tay, Yi and Zhou, Denny and Le, Quoc V and Zoph, Barret and Wei, Jason and Roberts, Adam},
+    booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+    pages = 	 {22631--22648},
+    year = 	 {2023},
+    editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+    volume = 	 {202},
+    series = 	 {Proceedings of Machine Learning Research},
+    month = 	 {23--29 Jul},
+    publisher =    {PMLR},
+    pdf = 	 {https://proceedings.mlr.press/v202/longpre23a/longpre23a.pdf},
+    url = 	 {https://proceedings.mlr.press/v202/longpre23a.html},
+    abstract = 	 {We study the design decision of publicly available instruction tuning methods, by reproducing and breaking down the development of Flan 2022 (Chung et al., 2022). Through careful ablation studies on the Flan Collection of tasks and methods, we tease apart the effect of design decisions which enable Flan-T5 to outperform prior work by 3-17% across evaluation settings. We find task balancing and enrichment techniques are overlooked but critical to effective instruction tuning, and in particular, training with mixed prompt settings (zero-shot, few-shot, chain-of-thought) actually yields equivalent or stronger (2%) performance in all settings. In further experiments we show Flan-T5 requires less finetuning to converge higher and faster than T5 on single downstream tasks – motivating instruction-tuned models as more computationally-efficient starting checkpoints for new tasks. Finally, to accelerate research on instruction tuning, we make the Flan 2022 collection of datasets, templates, and methods publicly available.},
+    abbr={Preprint},
+    arxiv={2301.13688},
+    selected_prior={true},
+    highlighted_author={Tu Vu},
+    highlight={// Pioneering work on large-scale instruction tuning},
+    google_research_blog={2023/02/the-flan-collection-advancing-open.html},
+    bibtex_show={true},
 }
 
 @InProceedings{pmlr-v239-ren23a,
@@ -270,11 +272,9 @@
     abstract = 	 {Safe deployment of large language models (LLMs) may benefit from a reliable method for assessing their generated content to determine when to abstain or to selectively generate. While likelihood-based metrics such as perplexity are widely employed, recent research has demonstrated the limitations of using sequence-level probability estimates given by LLMs as reliable indicators of generation quality. Conversely, LLMs have demonstrated strong calibration at the token level, particularly when it comes to choosing correct answers in multiple-choice questions or evaluating true/false statements. In this work, we reformulate open-ended generation tasks into token-level prediction tasks, and leverage LLMs’ superior calibration at the token level. We instruct an LLM to self-evaluate its answers, employing either a multi-way comparison or a point-wise evaluation approach, with the option to include an “None of the above” option to express the model’s uncertainty explicitly. We benchmark a range of scoring methods based on self-evaluation and evaluate their performance in selective generation using TruthfulQA and TL;DR. Through extensive experiments with PaLM-2 and GPT-3, we demonstrate that self-evaluation based scores not only improve accuracy, but also correlate better with the overall quality of generated content.},
     abbr={ICBINB@NeurIPS},
     arxiv={2312.09300},
-    pdf={https://proceedings.mlr.press/v239/ren23a/ren23a.pdf},
     highlighted_author={Tu Vu},
     bibtex_show={true},
 }
-
 
 @inproceedings{sun-etal-2023-dialect,
     title = "Dialect-robust Evaluation of Generated Text",
