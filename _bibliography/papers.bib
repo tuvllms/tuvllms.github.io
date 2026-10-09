@@ -116,17 +116,29 @@
     highlighted_author={Tu Vu},
 }
 
-@InProceedings{lin-etal-2025-efficient,
+@inproceedings{lin-etal-2025-efficient,
     title = "Efficient Model Development through Fine-tuning Transfer",
-    author = "Lin, Pin-Jie and Balasubramanian, Rishab and Liu, Fengyuan and Kandpal, Nikhil and Vu, Tu",
-    booktitle= "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    year={2025},
-    abstract={Modern LLMs struggle with efficient updates, as each new pretrained model version requires repeating expensive alignment processes. This challenge also applies to domain- or language-specific models, where fine-tuning on specialized data must be redone for every new base model release. In this paper, we explore the transfer of fine-tuning updates between model versions. Specifically, we derive the diff vector from one source model version, which represents the weight changes from fine-tuning, and apply it to the base model of a different target version. Through empirical evaluations on various open-weight model versions, we show that transferring diff vectors can significantly improve the target base model, often achieving performance comparable to its fine-tuned counterpart. For example, reusing the fine-tuning updates from Llama 3.0 8B leads to an absolute accuracy improvement of 10.7% on GPQA over the base Llama 3.1 8B without additional training, surpassing Llama 3.1 8B Instruct. In a multilingual model development setting, we show that this approach can significantly increase performance on target-language tasks without retraining, achieving an absolute improvement of 4.7% and 15.5% on Global MMLU for Malagasy and Turkish, respectively, compared to Llama 3.1 8B Instruct. Our controlled experiments reveal that fine-tuning transfer is most effective when the source and target models are linearly connected in the parameter space. Additionally, we demonstrate that fine-tuning transfer offers a stronger and more computationally efficient starting point for further fine-tuning. Finally, we propose an iterative recycling-then-finetuning approach for continuous model development, which improves both efficiency and effectiveness. Our findings suggest that fine-tuning transfer is a viable strategy to reduce training costs while maintaining model performance.},
+    author = "Lin, Pin-Jie  and
+      Balasubramanian, Rishab  and
+      Liu, Fengyuan  and
+      Kandpal, Nikhil  and
+      Vu, Tu",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.131/",
+    doi = "10.18653/v1/2025.emnlp-main.131",
+    pages = "2617--2636",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Modern LLMs face a major obstacle: each new pre-trained model version requires expensive and repetitive alignment. We propose a method that transfers fine-tuning updates across model versions. The key idea is to extract the \textit{diff vector}, which is the difference in parameters induced by fine-tuning, from a \textit{source} model version and apply it to the base of a different \textit{target} version. We show that transferring diff vectors significantly improves the target base model, often achieving performance comparable to its fine-tuned counterpart. For example, applying the fine-tuning updates from Llama 3.0 8B to Llama 3.1 8B increases accuracy by 46.9{\%} on IFEval and 15.7{\%} on LiveCodeBench without further training, surpassing Llama 3.1 8B Instruct. In multilingual settings, we also observe accuracy gains relative to Llama 3.1 8B Instruct, including 4.7{\%} for Malagasy and 15.5{\%} for Turkish on Global MMLU. Our controlled experiments reveal that fine-tuning transfer works best when source and target models are linearly connected in parameter space. We also show that this transfer provides a stronger and more efficient starting point for subsequent fine-tuning. Finally, we propose an iterative \textit{recycling-then-finetuning} approach for continuous model development, which improves both efficiency and effectiveness. Our findings suggest that fine-tuning transfer is a viable strategy to reduce training costs while maintaining model performance.",
     abbr={EMNLP},
     arxiv={2503.20110},
-    pdf={https://arxiv.org/pdf/2503.20110},
-    bibtex_show={true},
-    selected={true},
+    pdf={https://aclanthology.org/2025.emnlp-main.131v2.pdf},
     highlighted_author={Tu Vu},
     highlight={// EMNLP Oral (top 4.0% out of 8K+ submissions)}
 }
@@ -134,7 +146,7 @@
 @article{han2025ateb,
     title={{ATEB}: Evaluating and improving advanced nlp tasks for text embedding models},
     author={Han, Simeng and Gomez, Frank Palma and Vu, Tu and Li, Zefei and Cer, Daniel and Zeng, Hansi and Tar, Chris and Cohan, Arman and Abrego, Gustavo Hernandez},
-    journal={arXiv preprint arXiv:2502.16766},
+    booktitle={arXiv preprint arXiv:2502.16766},
     year={2025},
     abstract={Traditional text embedding benchmarks primarily evaluate embedding models' capabilities to capture semantic similarity. However, more advanced NLP tasks require a deeper understanding of text, such as safety and factuality. These tasks demand an ability to comprehend and process complex information, often involving the handling of sensitive content, or the verification of factual statements against reliable sources. We introduce a new benchmark designed to assess and highlight the limitations of embedding models trained on existing information retrieval data mixtures on advanced capabilities, which include factuality, safety, instruction following, reasoning and document-level understanding. This benchmark includes a diverse set of tasks that simulate real-world scenarios where these capabilities are critical and leads to identification of the gaps of the currently advanced embedding models. Furthermore, we propose a novel method that reformulates these various tasks as retrieval tasks. By framing tasks like safety or factuality classification as retrieval problems, we leverage the strengths of retrieval models in capturing semantic relationships while also pushing them to develop a deeper understanding of context and content. Using this approach with single-task fine-tuning, we achieved performance gains of 8\% on factuality classification and 13\% on safety classification. Our code and data will be publicly available.},
     abbr={Preprint},
@@ -148,7 +160,7 @@
     yadav2025what,
     title={What Matters for Model Merging at Scale?},
     author={Prateek Yadav and Tu Vu and Jonathan Lai and Alexandra Chronopoulou and Manaal Faruqui and Mohit Bansal and Tsendsuren Munkhdalai},
-    journal={Transactions on Machine Learning Research},
+    booktitle={Transactions on Machine Learning Research},
     issn={2835-8856},
     year={2025},
     url={https://openreview.net/forum?id=9sbetmvNpW},
@@ -172,7 +184,6 @@
       Bansal, Mohit  and
       Chen, Yun-Nung",
     booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
     year = "2024",
     address = "Miami, Florida, USA",
     publisher = "Association for Computational Linguistics",
@@ -205,8 +216,7 @@
     editor = "Ku, Lun-Wei  and
       Martins, Andre  and
       Srikumar, Vivek",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
-    month = aug,
+    booktitle = "Findings of the Association for Computational Linguistics: ACL",
     year = "2024",
     address = "Bangkok, Thailand",
     publisher = "Association for Computational Linguistics",
@@ -312,7 +322,7 @@
     editor = "Rogers, Anna  and
       Boyd-Graber, Jordan  and
       Okazaki, Naoaki",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics",
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
@@ -363,7 +373,7 @@
     editor = "Muresan, Smaranda  and
       Nakov, Preslav  and
       Villavicencio, Aline",
-    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics",
     year = "2022",
     address = "Dublin, Ireland",
     publisher = "Association for Computational Linguistics",
@@ -444,7 +454,7 @@
       Cohn, Trevor  and
       He, Yulan  and
       Liu, Yang",
-    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
     year = "2020",
     address = "Online",
     publisher = "Association for Computational Linguistics",
@@ -493,7 +503,7 @@
     editor = "Walker, Marilyn  and
       Ji, Heng  and
       Stent, Amanda",
-    booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)",
+    booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies",
     year = "2018",
     address = "New Orleans, Louisiana",
     publisher = "Association for Computational Linguistics",
