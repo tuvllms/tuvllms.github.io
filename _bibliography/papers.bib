@@ -294,25 +294,6 @@
     selected={true},
 }
 
-@InProceedings{vu-etal-2021-strata,
-    title = "{ST}ra{TA}: Self-Training with Task Augmentation for Better Few-shot Learning",
-    author = "Vu, Tu  and
-        Luong, Thang  and
-        Le, Quoc  and
-        Simon, Grady  and
-        Iyyer, Mohit",
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
-    year = "2021",
-    url = "https://aclanthology.org/2021.emnlp-main.462",
-    pages = "5715--5731",
-    abstract = "Despite their recent successes in tackling many NLP tasks, large-scale pre-trained language models do not perform as well in few-shot settings where only a handful of training examples are available. To address this shortcoming, we propose STraTA, which stands for Self-Training with Task Augmentation, an approach that builds on two key ideas for effective leverage of unlabeled data. First, STraTA uses task augmentation, a novel technique that synthesizes a large amount of data for auxiliary-task fine-tuning from target-task unlabeled texts. Second, STraTA performs self-training by further fine-tuning the strong base model created by task augmentation on a broad distribution of pseudo-labeled data. Our experiments demonstrate that STraTA can substantially improve sample efficiency across 12 few-shot benchmarks. Remarkably, on the SST-2 sentiment dataset, STraTA, with only 8 training examples per class, achieves comparable results to standard fine-tuning with 67K training examples. Our analyses reveal that task augmentation and self-training are both complementary and independently effective.",
-    abbr={EMNLP},
-    arxiv={2109.06270},
-    pdf={https://arxiv.org/pdf/2109.06270.pdf},
-    bibtex_show={true},
-    selected={true},
-}
-
 @InProceedings{ren-etal-2023-self,
     title={Self-Evaluation Improves Selective Generation in Large Language Models},
     author={Ren, Jie and Zhao, Yao and Vu, Tu and Liu, Peter J and Lakshminarayanan, Balaji},
@@ -347,20 +328,55 @@
     bibtex_show={true},
 }
 
-@InProceedings{mekala-etal-2022-leveraging,
+@inproceedings{mekala-etal-2022-leveraging,
     title = "Leveraging {QA} Datasets to Improve Generative Data Augmentation",
     author = "Mekala, Dheeraj  and
       Vu, Tu  and
       Schick, Timo  and
       Shang, Jingbo",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
     booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
     year = "2022",
-    url = "https://aclanthology.org/2022.emnlp-main.660",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.660/",
+    doi = "10.18653/v1/2022.emnlp-main.660",
     pages = "9737--9750",
     abstract = "The ability of generative language models (GLMs) to generate text has improved considerably in the last few years, enabling their use for generative data augmentation. In this work, we propose CONDA, an approach to further improve GLM{'}s ability to generate synthetic data by reformulating data generation as context generation for a given question-answer (QA) pair and leveraging QA datasets for training context generators. Then, we cast downstream tasks into the same question answering format and adapt the fine-tuned context generators to the target task domain. Finally, we use the fine-tuned GLM to generate relevant contexts, which are in turn used as synthetic training data for their corresponding tasks. We perform extensive experiments on multiple classification datasets and demonstrate substantial improvements in performance for both few- and zero-shot settings. Our analysis reveals that QA datasets that require high-level reasoning abilities (e.g., abstractive and common-sense QA datasets) tend to give the best boost in performance in both few-shot and zero-shot settings.",
     abbr={EMNLP},
     arxiv={2205.12604},
-    pdf={https://arxiv.org/pdf/2205.12604.pdf},
+    pdf={https://aclanthology.org/2022.emnlp-main.660.pdf},
+    highlighted_author={Tu Vu},
+    bibtex_show={true},
+}
+
+@inproceedings{vu-etal-2021-strata,
+    title = "{ST}ra{TA}: Self-Training with Task Augmentation for Better Few-shot Learning",
+    author = "Vu, Tu  and
+      Luong, Minh-Thang  and
+      Le, Quoc  and
+      Simon, Grady  and
+      Iyyer, Mohit",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.462/",
+    doi = "10.18653/v1/2021.emnlp-main.462",
+    pages = "5715--5731",
+    abstract = "Despite their recent successes in tackling many NLP tasks, large-scale pre-trained language models do not perform as well in few-shot settings where only a handful of training examples are available. To address this shortcoming, we propose STraTA, which stands for Self-Training with Task Augmentation, an approach that builds on two key ideas for effective leverage of unlabeled data. First, STraTA uses task augmentation, a novel technique that synthesizes a large amount of data for auxiliary-task fine-tuning from target-task unlabeled texts. Second, STraTA performs self-training by further fine-tuning the strong base model created by task augmentation on a broad distribution of pseudo-labeled data. Our experiments demonstrate that STraTA can substantially improve sample efficiency across 12 few-shot benchmarks. Remarkably, on the SST-2 sentiment dataset, STraTA, with only 8 training examples per class, achieves comparable results to standard fine-tuning with 67K training examples. Our analyses reveal that task augmentation and self-training are both complementary and independently effective.",
+    abbr={EMNLP},
+    arxiv={2109.06270},
+    pdf={https://aclanthology.org/2021.emnlp-main.462.pdf},
+    highlighted_author={Tu Vu},
     bibtex_show={true},
 }
 
@@ -392,7 +408,8 @@
     pdf={https://aclanthology.org/2020.emnlp-main.635.pdf},
     selected_prior={true},
     highlighted_author={Tu Vu},
-    highlight={// Pioneering work on exploring task transferability in the LLM era}
+    highlight={// Pioneering work on exploring task transferability in the LLM era},
+    bibtex_show={true},
 }
 
 @inproceedings{vu-iyyer-2019-encouraging,
