@@ -254,26 +254,6 @@
     highlight={// Pioneering work on combining mixture-of-experts and instruction tuning}
 }
 
-@InProceedings{vu-etal-2022-spot,
-    title="{SP}o{T}: Better Frozen Model Adaptation through Soft Prompt Transfer",
-    author="Vu, Tu  and
-        Lester, Brian  and
-        Constant, Noah  and
-        Al-Rfou, Rami  and
-        Cer, Daniel",
-    booktitle="Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    year="2022",
-    url="https://aclanthology.org/2022.acl-long.346",
-    pages="5039--5059",
-    abstract="There has been growing interest in parameter-efficient methods to apply pre-trained language models to downstream tasks. Building on the Prompt Tuning approach of Lester et al. (2021), which learns task-specific soft prompts to condition a frozen pre-trained model to perform different tasks, we propose a novel prompt-based transfer learning approach called SPoT: Soft Prompt Transfer. SPoT first learns a prompt on one or more source tasks and then uses it to initialize the prompt for a target task. We show that SPoT significantly boosts the performance of Prompt Tuning across many tasks. More remarkably, across all model sizes, SPoT matches or outperforms standard Model Tuning (which fine-tunes all model parameters) on the SuperGLUE benchmark, while using up to 27,000{\mbox{$\times$}} fewer task-specific parameters. To understand where SPoT is most effective, we conduct a large-scale study on task transferability with 26 NLP tasks in 160 combinations, and demonstrate that many tasks can benefit each other via prompt transfer. Finally, we propose an efficient retrieval approach that interprets task prompts as task embeddings to identify similar tasks and predict the most transferable source tasks for a novel target task.",
-    abbr={ACL},
-    arxiv={2110.07904},
-    pdf={https://arxiv.org/pdf/2110.07904.pdf},
-    bibtex_show={true},
-    selected_prior={true},
-    highlight={// Pioneering work on soft prompt tuning & transfer // Headlines of Google AI's Natural Language Accelerated Newsletter Q1, 2022}
-}
-
 @InProceedings{vu-etal-2022-overcoming,
     title = "Overcoming Catastrophic Forgetting in Zero-Shot Cross-Lingual Generation",
     author = "Vu, Tu  and
@@ -325,6 +305,34 @@
     abbr={ACL},
     arxiv={2211.00922},
     pdf={https://arxiv.org/pdf/2211.00922.pdf},
+    bibtex_show={true},
+}
+
+@inproceedings{vu-etal-2022-spot,
+    title = "{SP}o{T}: Better Frozen Model Adaptation through Soft Prompt Transfer",
+    author = "Vu, Tu  and
+      Lester, Brian  and
+      Constant, Noah  and
+      Al-Rfou{'}, Rami  and
+      Cer, Daniel",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.346/",
+    doi = "10.18653/v1/2022.acl-long.346",
+    pages = "5039--5059",
+    abstract = "There has been growing interest in parameter-efficient methods to apply pre-trained language models to downstream tasks. Building on the Prompt Tuning approach of Lester et al. (2021), which learns task-specific soft prompts to condition a frozen pre-trained model to perform different tasks, we propose a novel prompt-based transfer learning approach called SPoT: Soft Prompt Transfer. SPoT first learns a prompt on one or more source tasks and then uses it to initialize the prompt for a target task. We show that SPoT significantly boosts the performance of Prompt Tuning across many tasks. More remarkably, across all model sizes, SPoT matches or outperforms standard Model Tuning (which fine-tunes all model parameters) on the SuperGLUE benchmark, while using up to 27,000{\texttimes} fewer task-specific parameters. To understand where SPoT is most effective, we conduct a large-scale study on task transferability with 26 NLP tasks in 160 combinations, and demonstrate that many tasks can benefit each other via prompt transfer. Finally, we propose an efficient retrieval approach that interprets task prompts as task embeddings to identify similar tasks and predict the most transferable source tasks for a novel target task.",
+    abbr={ACL},
+    arxiv={2110.07904},
+    pdf={https://aclanthology.org/2022.acl-long.346.pdf},
+    selected_prior={true},
+    highlighted_author={Tu Vu},
+    highlight={// Pioneering work on soft prompt tuning & transfer // Headlines of Google AI's Natural Language Accelerated Newsletter Q1, 2022},
     bibtex_show={true},
 }
 
