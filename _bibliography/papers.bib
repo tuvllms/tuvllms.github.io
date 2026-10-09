@@ -254,57 +254,82 @@
     highlight={// Pioneering work on combining mixture-of-experts and instruction tuning}
 }
 
-@InProceedings{vu-etal-2022-overcoming,
-    title = "Overcoming Catastrophic Forgetting in Zero-Shot Cross-Lingual Generation",
-    author = "Vu, Tu  and
-        Barua, Aditya  and
-        Lester, Brian  and
-        Cer, Daniel  and
-        Iyyer, Mohit  and
-        Constant, Noah",
-    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
-    year = "2022",
-    url = "https://aclanthology.org/2022.emnlp-main.630",
-    pages = "9279--9300",
-    abstract = "In this paper, we explore the challenging problem of performing a generative task in a target language when labeled data is only available in English, using summarization as a case study. We assume a strict setting with no access to parallel data or machine translation and find that common transfer learning approaches struggle in this setting, as a generative multilingual model fine-tuned purely on English catastrophically forgets how to generate non-English. Given the recent rise of parameter-efficient adaptation techniques, we conduct the first investigation into how one such method, prompt tuning (Lester et al., 2021), can overcome catastrophic forgetting to enable zero-shot cross-lingual generation. Our experiments show that parameter-efficient prompt tuning provides gains over standard fine-tuning when transferring between less-related languages, e.g., from English to Thai. However, a significant gap still remains between these methods and fully-supervised baselines. To improve cross-lingual transfer further, we explore several approaches, including: (1) mixing in unlabeled multilingual data, and (2) explicitly factoring prompts into recombinable language and task components. Our approaches can provide further quality gains, suggesting that robust zero-shot cross-lingual generation is within reach.",
-    abbr={EMNLP},
-    arxiv={2205.12647},
-    pdf={https://arxiv.org/pdf/2205.12647.pdf},
-    bibtex_show={true},
-    selected={true},
-}
-
-@InProceedings{ren-etal-2023-self,
-    title={Self-Evaluation Improves Selective Generation in Large Language Models},
-    author={Ren, Jie and Zhao, Yao and Vu, Tu and Liu, Peter J and Lakshminarayanan, Balaji},
-    booktitle={Proceedings on "I Can't Believe It's Not Better!  - Failure Modes in the Age of Foundation Models" at NeurIPS 2023 Workshops},
-    year={2023},
-    abstract={Safe deployment of large language models (LLMs) may benefit from a reliable method for assessing their generated content to determine when to abstain or to selectively generate. While likelihood-based metrics such as perplexity are widely employed, recent research has demonstrated the limitations of using sequence-level probability estimates given by LLMs as reliable indicators of generation quality. Conversely, LLMs have demonstrated strong calibration at the token level, particularly when it comes to choosing correct answers in multiple-choice questions or evaluating true/false statements. In this work, we reformulate open-ended generation tasks into token-level prediction tasks, and leverage LLMs' superior calibration at the token level. We instruct an LLM to self-evaluate its answers, employing either a multi-way comparison or a point-wise evaluation approach, with the option to include a "None of the above" option to express the model's uncertainty explicitly. We benchmark a range of scoring methods based on self-evaluation and evaluate their performance in selective generation using TruthfulQA and TL;DR. Through experiments with PaLM-2 and GPT-3, we demonstrate that self-evaluation based scores not only improve accuracy, but also correlate better with the overall quality of generated content.},
-    abbr={NeurIPS},
+@InProceedings{pmlr-v239-ren23a,
+    title = 	 {Self-Evaluation Improves Selective Generation in Large Language Models},
+    author =       {Ren, Jie and Zhao, Yao and Vu, Tu and Liu, Peter J. and Lakshminarayanan, Balaji},
+    booktitle = 	 {Proceedings on "I Can't Believe It's Not Better: Failure  Modes in the Age of Foundation Models" at NeurIPS 2023 Workshops},
+    pages = 	 {49--64},
+    year = 	 {2023},
+    editor = 	 {Antorán, Javier and Blaas, Arno and Buchanan, Kelly and Feng, Fan and Fortuin, Vincent and Ghalebikesabi, Sahra and Kriegler, Andreas and Mason, Ian and Rohde, David and Ruiz, Francisco J. R. and Uelwer, Tobias and Xie, Yubin and Yang, Rui},
+    volume = 	 {239},
+    series = 	 {Proceedings of Machine Learning Research},
+    month = 	 {16 Dec},
+    publisher =    {PMLR},
+    pdf = 	 {https://proceedings.mlr.press/v239/ren23a/ren23a.pdf},
+    url = 	 {https://proceedings.mlr.press/v239/ren23a.html},
+    abstract = 	 {Safe deployment of large language models (LLMs) may benefit from a reliable method for assessing their generated content to determine when to abstain or to selectively generate. While likelihood-based metrics such as perplexity are widely employed, recent research has demonstrated the limitations of using sequence-level probability estimates given by LLMs as reliable indicators of generation quality. Conversely, LLMs have demonstrated strong calibration at the token level, particularly when it comes to choosing correct answers in multiple-choice questions or evaluating true/false statements. In this work, we reformulate open-ended generation tasks into token-level prediction tasks, and leverage LLMs’ superior calibration at the token level. We instruct an LLM to self-evaluate its answers, employing either a multi-way comparison or a point-wise evaluation approach, with the option to include an “None of the above” option to express the model’s uncertainty explicitly. We benchmark a range of scoring methods based on self-evaluation and evaluate their performance in selective generation using TruthfulQA and TL;DR. Through extensive experiments with PaLM-2 and GPT-3, we demonstrate that self-evaluation based scores not only improve accuracy, but also correlate better with the overall quality of generated content.},
+    abbr={ICBINB@NeurIPS},
     arxiv={2312.09300},
-    pdf={https://arxiv.org/pdf/2312.09300.pdf},
+    pdf={https://proceedings.mlr.press/v239/ren23a/ren23a.pdf},
+    highlighted_author={Tu Vu},
     bibtex_show={true},
 }
 
-@InProceedings{sun-etal-2023-dialect,
+
+@inproceedings{sun-etal-2023-dialect,
     title = "Dialect-robust Evaluation of Generated Text",
     author = "Sun, Jiao  and
-        Sellam, Thibault  and
-        Clark, Elizabeth  and
-        Vu, Tu  and
-        Dozat, Timothy  and
-        Garrette, Dan  and
-        Siddhant, Aditya  and
-        Eisenstein, Jacob  and
-        Gehrmann, Sebastian",
+      Sellam, Thibault  and
+      Clark, Elizabeth  and
+      Vu, Tu  and
+      Dozat, Timothy  and
+      Garrette, Dan  and
+      Siddhant, Aditya  and
+      Eisenstein, Jacob  and
+      Gehrmann, Sebastian",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
     booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
     year = "2023",
-    url = "https://aclanthology.org/2023.acl-long.331",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.331/",
+    doi = "10.18653/v1/2023.acl-long.331",
     pages = "6010--6028",
     abstract = "Text generation metrics that are not robust to dialect variation make it impossible to tell how well systems perform for many groups of users, and can even penalize systems for producing text in lower-resource dialects. In this paper, we introduce a suite of methods to assess whether metrics are dialect robust. These methods show that state-of-the-art metrics are not dialect robust: they often prioritize dialect similarity over semantics, preferring outputs that are semantically incorrect over outputs that match the semantics of the reference but contain dialect differences. As a step towards dialect-robust metrics for text generation, we propose NANO, which introduces regional and language information to the metric{'}s pretraining. NANO significantly improves dialect robustness while preserving the correlation between automated metrics and human ratings. It also enables a more ambitious approach to evaluation, dialect awareness, in which system outputs are scored by both semantic match to the reference and appropriateness in any specified dialect.",
     abbr={ACL},
     arxiv={2211.00922},
-    pdf={https://arxiv.org/pdf/2211.00922.pdf},
+    pdf={https://aclanthology.org/2023.acl-long.331.pdf},
+    highlighted_author={Tu Vu},
+    bibtex_show={true},
+}
+
+@inproceedings{vu-etal-2022-overcoming,
+    title = "Overcoming Catastrophic Forgetting in Zero-Shot Cross-Lingual Generation",
+    author = "Vu, Tu  and
+      Barua, Aditya  and
+      Lester, Brian  and
+      Cer, Daniel  and
+      Iyyer, Mohit  and
+      Constant, Noah",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.630/",
+    doi = "10.18653/v1/2022.emnlp-main.630",
+    pages = "9279--9300",
+    abstract = "In this paper, we explore the challenging problem of performing a generative task in a target language when labeled data is only available in English, using summarization as a case study. We assume a strict setting with no access to parallel data or machine translation and find that common transfer learning approaches struggle in this setting, as a generative multilingual model fine-tuned purely on English catastrophically forgets how to generate non-English. Given the recent rise of parameter-efficient adaptation techniques, we conduct the first investigation into how one such method, prompt tuning (Lester et al., 2021), can overcome catastrophic forgetting to enable zero-shot cross-lingual generation. Our experiments show that parameter-efficient prompt tuning provides gains over standard fine-tuning when transferring between less-related languages, e.g., from English to Thai. However, a significant gap still remains between these methods and fully-supervised baselines. To improve cross-lingual transfer further, we explore several approaches, including: (1) mixing in unlabeled multilingual data, and (2) explicitly factoring prompts into recombinable language and task components. Our approaches can provide further quality gains, suggesting that robust zero-shot cross-lingual generation is within reach.",
+    abbr={EMNLP},
+    arxiv={2205.12647},
+    pdf={https://aclanthology.org/2022.emnlp-main.630.pdf},
+    highlighted_author={Tu Vu},
     bibtex_show={true},
 }
 
