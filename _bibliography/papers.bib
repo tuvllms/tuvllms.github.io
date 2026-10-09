@@ -9,10 +9,10 @@
     abbr={Preprint},
     arxiv={2608.27454},
     pdf={https://arxiv.org/pdf/2608.27454},
-    bibtex_show={true},
     selected_recent={true},
     highlighted_author={Tu Vu},
-    highlight={// VentureBeat <a href="https://venturebeat.com/ai/googles-wikiskill-gives-ai-agents-a-memory-of-what-went-wrong-without-putting-it-in-the-prompt" style="color: #d92f7c;">feature</a> // DAIR.AI's <a href="https://x.com/dair_ai/status/2096617880515211328" style="color: #d92f7c;">Top AI Papers of the Week</a>}
+    highlight={// VentureBeat <a href="https://venturebeat.com/ai/googles-wikiskill-gives-ai-agents-a-memory-of-what-went-wrong-without-putting-it-in-the-prompt" style="color: #d92f7c;">feature</a> // DAIR.AI's <a href="https://x.com/dair_ai/status/2096617880515211328" style="color: #d92f7c;">Top AI Papers of the Week</a>},
+    bibtex_show={true},
 }
 
 @InProceedings{alzubi2026evoskill,
@@ -20,14 +20,15 @@
     author={Salaheddin Alzubi and Noah Provenzano and Jaydon Bingham and Christian Calvo and Weiyuan Chen and Tu Vu},
     booktitle={Third Conference on Language Modeling},
     year={2026},
+    url={https://openreview.net/forum?id=tLvlDr1GWD},
     abstract={Coding agents are increasingly used as general-purpose problem solvers, but they often lack the domain expertise required for specialized tasks. Agent skills address this limitation through reusable modules that package instructions, scripts, and resources to augment agents with specialized capabilities. However, these skills are typically hand-crafted, which limits their scalability. We ask whether agents can instead acquire such skills automatically from experience. We introduce EvoSkill, a framework for automated skill acquisition. EvoSkill iteratively analyzes execution failures to identify capability gaps, proposes new skills or refinements to existing ones, and materializes them as structured skill folders. Candidate skills are selected based on held-out validation performance, while model parameters remain fixed. We evaluate EvoSkill on diverse benchmarks spanning financial-document reasoning, web search, multi-source reasoning, and coding (OfficeQA, SealQA, FRAMES, and LiveCodeBench), using models from the Claude, Gemini, Kimi, and gpt-oss families as executors. We show that EvoSkill can substantially improve agent performance across benchmarks, including gains of 15.7 points on SealQA and 11.4 points on OfficeQA. In a controlled comparison, skill evolution with EvoSkill substantially outperforms prompt evolution with GEPA. We further find evidence that evolved skills can transfer across settings: a search skill evolved on SealQA improves BrowseComp accuracy by 5.3 points without modification, while reuse across executor models improves performance in several model pairings, with outcomes depending on model and harness compatibility.},
     abbr={COLM},
     arxiv={2603.02766},
     pdf={https://openreview.net/pdf?id=tLvlDr1GWD},
-    bibtex_show={true},
     selected_recent={true},
     highlighted_author={Tu Vu},
-    highlight={// Pioneering work on skill evolution}
+    highlight={// Pioneering work on skill evolution},
+    bibtex_show={true},
 }
 
 @InProceedings{pham2026sealqa,
@@ -35,14 +36,15 @@
     author={Thinh Pham and Nguyen Phan Nguyen and Pratibha Zunjare and Weiyuan Chen and Yu-Min Tseng and Tu Vu},
     booktitle={The Fourteenth International Conference on Learning Representations},
     year={2026},
+    url={https://openreview.net/forum?id=zWb7ueH16c},
     abstract={We introduce SealQA, a challenge benchmark for evaluating SEarch-Augmented Language models on fact-seeking questions where web search yields conflicting, noisy, or unhelpful results. SealQA comes in three flavors: (1) Seal-0 (main) and (2) Seal-Hard, both of which assess factual accuracy and reasoning capabilities, where Seal-0 targets the most challenging questions that frontier non-reasoning models (e.g., GPT-4.1) answer with near-zero accuracy; and (3) LongSeal, which extends SealQA to test long-context, multi-document reasoning in "needle-in-a-haystack" settings. Our evaluation reveals critical limitations in current models. Even frontier reasoning models face significant challenges across SealQA flavors. On Seal-0, GPT-5 with tools achieves only 43.2% accuracy at its best reasoning effort. We also find that even advanced reasoning models (e.g., DeepSeek-R1) can be vulnerable to noisy search results. Notably, increasing test-time compute does not yield reliable gains across GPT-5 and the o-series of models, with performance often plateauing or even declining early. Finally, while current models are less affected by the "lost-in-the-middle" issue, they still fail to reliably identify relevant documents in LongSeal when faced with numerous distractors. To facilitate future work, we release SealQA at https://huggingface.co/datasets/vtllms/sealqa.},
     abbr={ICLR},
     arxiv={2506.01062},
     pdf={https://openreview.net/pdf?id=zWb7ueH16c},
-    bibtex_show={true},
     selected_recent={true},
     highlighted_author={Tu Vu},
-    highlight={// Our benchmark dataset has been used by <a href="https://gemini.google.com" style="color: #d92f7c;">Google's Gemini</a>, <a href="https://qwen.ai/blog?id=qwen3.5" style="color: #d92f7c;">Qwen</a>, <a href="https://x.com/deepseek_ai/status/1958417068568481854" style="color: #d92f7c;">DeepSeek</a>, <a href="https://moonshotai.github.io/Kimi-Researcher" style="color: #d92f7c;">Kimi</a>, and <a href="https://www.perplexity.ai/hub/blog/advancing-search-augmented-language-models" style="color: #d92f7c;">Perplexity</a>}
+    highlight={// Our benchmark dataset has been used by <a href="https://gemini.google.com" style="color: #d92f7c;">Google's Gemini</a>, <a href="https://qwen.ai/blog?id=qwen3.5" style="color: #d92f7c;">Qwen</a>, <a href="https://x.com/deepseek_ai/status/1958417068568481854" style="color: #d92f7c;">DeepSeek</a>, <a href="https://moonshotai.github.io/Kimi-Researcher" style="color: #d92f7c;">Kimi</a>, and <a href="https://www.perplexity.ai/hub/blog/advancing-search-augmented-language-models" style="color: #d92f7c;">Perplexity</a>},
+    bibtex_show={true},
 }
 
 @InProceedings{balasubramanian2026master,
@@ -78,6 +80,7 @@
     abbr={ICML},
     arxiv={2606.01075},
     highlighted_author={Tu Vu},
+    bibtex_show={true},
 }
 
 @InProceedings{sharma2026prism,
