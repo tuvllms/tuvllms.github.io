@@ -230,6 +230,7 @@
     booktitle={The Twelfth International Conference on Learning Representations},
     year={2024},
     url={https://openreview.net/forum?id=6mLjDwYte5},
+    abstract={Sparse Mixture-of-Experts (MoE) is a neural architecture design that adds learnable parameters to Large Language Models (LLMs) without increasing computational complexity (FLOPs). Instruction tuning is a technique for training LLMs to follow instructions. We advocate combining these two approaches, as we find that MoE models benefit more from instruction tuning than dense models. In particular, we conduct empirical studies across three experimental setups: (i) Direct finetuning on individual downstream tasks devoid of instruction tuning; (ii) Instruction tuning followed by in-context few-shot or zero-shot generalization on downstream tasks; and (iii) Instruction tuning supplemented by further finetuning on individual downstream tasks. In the first scenario, MoE models overall underperform dense models of identical computational capacity. This narrative, however, dramatically changes with the introduction of instruction tuning (in the second and third scenarios), used independently or in conjunction with task-specific finetuning. Our most powerful model, FLAN-MoE-32B, surpasses the performance of Flan-PaLM-62B on four benchmark tasks, while using only a third of the FLOPs. The advancements embodied by FLAN-MoE inspire a reevaluation of the design principles of large-scale, high-performance language models in the framework of task-agnostic learning.},
     abbr={ICLR},
     arxiv={2305.14705},
     pdf={https://openreview.net/pdf?id=6mLjDwYte5},
@@ -242,7 +243,7 @@
 @InProceedings{team2023gemini,
     title={Gemini: A Family of Highly Capable Multimodal Models},
     author={Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew and Hauth, Anja and others},
-    journal={arXiv preprint arXiv:2312.11805},
+    booktitle={arXiv preprint arXiv:2312.11805},
     year={2023},
     abstract={This report introduces a new family of multimodal models, Gemini, that exhibit remarkable capabilities across image, audio, video, and text understanding. The Gemini family consists of Ultra, Pro, and Nano sizes, suitable for applications ranging from complex reasoning tasks to on-device memory-constrained use-cases. Evaluation on a broad range of benchmarks shows that our most-capable Gemini Ultra model advances the state of the art in 30 of 32 of these benchmarks - notably being the first model to achieve human-expert performance on the well-studied exam benchmark MMLU, and improving the state of the art in every one of the 20 multimodal benchmarks we examined. We believe that the new capabilities of the Gemini family in cross-modal reasoning and language understanding will enable a wide variety of use cases. We discuss our approach toward post-training and deploying Gemini models responsibly to users through services including Gemini, Gemini Advanced, Google AI Studio, and Cloud Vertex AI.},
     abbr={Technical report},
@@ -265,7 +266,6 @@
     editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
     volume = 	 {202},
     series = 	 {Proceedings of Machine Learning Research},
-    month = 	 {Jul},
     publisher =    {PMLR},
     pdf = 	 {https://proceedings.mlr.press/v202/longpre23a/longpre23a.pdf},
     url = 	 {https://proceedings.mlr.press/v202/longpre23a.html},
@@ -288,7 +288,6 @@
     editor = 	 {Antorán, Javier and Blaas, Arno and Buchanan, Kelly and Feng, Fan and Fortuin, Vincent and Ghalebikesabi, Sahra and Kriegler, Andreas and Mason, Ian and Rohde, David and Ruiz, Francisco J. R. and Uelwer, Tobias and Xie, Yubin and Yang, Rui},
     volume = 	 {239},
     series = 	 {Proceedings of Machine Learning Research},
-    month = 	 {Dec},
     publisher =    {PMLR},
     pdf = 	 {https://proceedings.mlr.press/v239/ren23a/ren23a.pdf},
     url = 	 {https://proceedings.mlr.press/v239/ren23a.html},
@@ -314,7 +313,6 @@
       Boyd-Graber, Jordan  and
       Okazaki, Naoaki",
     booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = jul,
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
@@ -341,7 +339,6 @@
       Kozareva, Zornitsa  and
       Zhang, Yue",
     booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
-    month = dec,
     year = "2022",
     address = "Abu Dhabi, United Arab Emirates",
     publisher = "Association for Computational Linguistics",
@@ -367,7 +364,6 @@
       Nakov, Preslav  and
       Villavicencio, Aline",
     booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = may,
     year = "2022",
     address = "Dublin, Ireland",
     publisher = "Association for Computational Linguistics",
@@ -394,7 +390,6 @@
       Kozareva, Zornitsa  and
       Zhang, Yue",
     booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
-    month = dec,
     year = "2022",
     address = "Abu Dhabi, United Arab Emirates",
     publisher = "Association for Computational Linguistics",
@@ -421,7 +416,6 @@
       Specia, Lucia  and
       Yih, Scott Wen-tau",
     booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
     year = "2021",
     address = "Online and Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
@@ -451,7 +445,6 @@
       He, Yulan  and
       Liu, Yang",
     booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-    month = nov,
     year = "2020",
     address = "Online",
     publisher = "Association for Computational Linguistics",
@@ -476,7 +469,6 @@
       Traum, David  and
       M{\`a}rquez, Llu{\'i}s",
     booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
     year = "2019",
     address = "Florence, Italy",
     publisher = "Association for Computational Linguistics",
@@ -502,7 +494,6 @@
       Ji, Heng  and
       Stent, Amanda",
     booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)",
-    month = jun,
     year = "2018",
     address = "New Orleans, Louisiana",
     publisher = "Association for Computational Linguistics",
@@ -525,7 +516,6 @@
       Berant, Jonathan  and
       Lenci, Alessandro",
     booktitle = "Proceedings of the Seventh Joint Conference on Lexical and Computational Semantics",
-    month = jun,
     year = "2018",
     address = "New Orleans, Louisiana",
     publisher = "Association for Computational Linguistics",
